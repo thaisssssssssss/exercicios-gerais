@@ -16,16 +16,23 @@
 
         aux1 = inverte(n, strlen(n) - 1, x);
 
-        if (aux1 == 1) printf("Eh palindromo\n");
-        else printf("Nao eh palindromo\n");
+        if (aux1 == 1) printf("SIM\n");
+        else printf("NAO\n");
 
      }
 
 
      int main() {
         char string[100];
-        scanf("%s", string);
-        palindromo(string);
+        int recebe;
+
+        while(1){
+            recebe = scanf("%s", string);
+            if(recebe == -1 || recebe == 0){
+                break;
+            }
+            palindromo(string);
+        }
        
 
         return 0; 
