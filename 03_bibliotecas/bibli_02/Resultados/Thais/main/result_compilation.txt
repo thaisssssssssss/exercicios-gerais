@@ -1,0 +1,7 @@
+main.c: In function ‘main’:
+main.c:6:12: warning: unused variable ‘c’ [-Wunused-variable]
+    6 |     int r, c;
+      |            ^
+main.c:6:9: warning: unused variable ‘r’ [-Wunused-variable]
+    6 |     int r, c;
+      |         ^
