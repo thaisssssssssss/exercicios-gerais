@@ -5,19 +5,20 @@ int main(){
     char string[1000];
     int option;
     scanf ("%[^\n]", string);
-    printf("%s", string);
+
+    int lenght = 0;
 
     while(1){
         printf("1 - Tamanho da string\n2 - Copiar string\n3 - Converter string para letras maiusculas\n4 - Converter string para letras minusculas\n5 - Imprimir string ao contrario\n6 - Encerrar o programa\nOpcao escolhida:\n");
         scanf("%d", &option);
 
         if(option == 1){
-            int lenght = string_length(string);
+            lenght = string_length(string);
             printf("Tamanho da string: %d\n\n", lenght);
         }
         else if(option == 2){
-            int lenght = string_length(string);
-            char copy[lenght];
+            lenght = string_length(string);
+            char copy[lenght - 2];
             string_copy(string, copy);
             printf("String copiada: %s\n\n", copy);
         }
@@ -37,4 +38,5 @@ int main(){
             break;
         }
     }
+    return 0;
 }
