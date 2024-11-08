@@ -21,7 +21,9 @@ void string_upper(char *str){
     lenght = string_length(str);
 
     for(i = 0; i < lenght; i++){
-        str[i] = str[i] - 'a' + 'A';
+        if(str[i] >= 'a' && str[i] <= 'z'){
+            str[i] = str[i] - 'a' + 'A';
+        }
     }
 }
 
@@ -30,7 +32,9 @@ void string_lower(char *str){
     lenght = string_length(str);
 
     for(i = 0; i < lenght; i++){
-        str[i] = str[i] + 'a' - 'A';
+        if(str[i] >= 'A' && str[i] <= 'Z'){
+            str[i] = str[i] + 'a' - 'A';
+        }
     }
 }
 
