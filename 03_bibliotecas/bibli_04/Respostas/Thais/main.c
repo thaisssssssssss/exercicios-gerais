@@ -33,5 +33,6 @@ int main(){
     diasMes = numeroDiasMes(mes, ano);
     printf("O mes informado possui %d dias\n", diasMes);
 
+    printf("A data seguinte eh: ");
     imprimeProximaData(dia, mes, ano);
 }

@@ -4,7 +4,7 @@
 int verificaDataValida(int dia, int mes, int ano){
     int qtdDiasMes;
     qtdDiasMes = numeroDiasMes(mes, ano);
-    return (dia < 1 || dia > qtdDiasMes || mes < 1 || mes > 12);
+    return (dia >= 1 && dia <= qtdDiasMes && mes >= 1 && mes <= 12);
 }
 
 void imprimeDataExtenso(int dia, int mes, int ano){
@@ -60,11 +60,8 @@ int numeroDiasMes(int mes, int ano){
     int bissexto;
     bissexto = verificaBissexto(ano);
 
-    if(mes == 2 && bissexto == 1){
-        return 29;
-    }
-    else if(mes == 2 && bissexto == 0){
-        return 28;
+    if(mes == 2){
+        return (bissexto == 1) ? 29 : 28;
     }
     else if(mes == 4 || mes == 6 || mes == 9 || mes == 11){
         return 30;
@@ -76,86 +73,34 @@ int numeroDiasMes(int mes, int ano){
 
 
 int comparaData(int dia1, int mes1, int ano1, int dia2, int mes2, int ano2){
-    if(ano1 > ano2){
-        return 1;
+    if (ano1 != ano2) {
+        return (ano1 > ano2) ? 1 : -1;
     }
-    else if(ano1 < ano2){
-        return -1;
+
+    if (mes1 != mes2) {
+        return (mes1 > mes2) ? 1 : -1;
     }
-    else if(ano1 == ano2 && mes1 > mes2){
-        return 1;
+
+    if (dia1 != dia2) {
+        return (dia1 > dia2) ? 1 : -1;
     }
-    else if(ano1 == ano2 && mes1 < mes2){
-        return -1;
-    }
-    else if(ano1 == ano2 && mes1 == mes2 && dia1 > dia2){
-        return 1;
-    }
-    else if(ano1 == ano2 && mes1 == mes2 && dia1 < dia2){
-        return -1;
-    }
-    else if(ano1 == ano2 && mes1 == mes2 && dia1 == dia2){
-        return 0;
-    }
+
+    return 0;
 }
 
+//reescrito por IA
 int calculaDiferencaDias(int dia1, int mes1, int ano1, int dia2, int mes2, int ano2){
-    int maiorData;
-    int qtdDias = 0, diasMes;
-    maiorData = comparaData(dia1, mes1, ano1, dia2, mes2, ano2);
-    int difAnos, i;
+    
+    // Calcula o número total de dias desde 01/01/0000 até as duas datas
+    int diasData1 = ano1 * 365 + calculaDiasAteMes(mes1, ano1) + dia1;
+    int diasData2 = ano2 * 365 + calculaDiasAteMes(mes2, ano2) + dia2;
 
-    if(maiorData == 0){
-        return 0;
-    }
-    else if(maiorData == -1){
-        if(mes1 == mes2 && ano1 == ano2){
-            qtdDias = dia2 - dia1;
-        }
-        else if(ano1 == ano2){
-            qtdDias = calculaDiasAteMes(mes2, ano2) - calculaDiasAteMes(mes1, ano2);
-            qtdDias = qtdDias - dia1 + dia2;
-        }
-        else{
-            difAnos = ano2 - ano1;
-            for(i = 0; i <= difAnos; i++){
-                if(i == 0){
-                    qtdDias = (calculaDiasAteMes(12, ano1) + 31) - calculaDiasAteMes(mes1, ano1);
-                }
-                else if(i == difAnos){
-                    qtdDias += calculaDiasAteMes(mes2, ano2) + dia2 - dia1;
-                }
-                else{
-                    qtdDias += (calculaDiasAteMes(12, ano1 + i) + 31);
-                }
-            }
-        }
-    }
-    else if(maiorData == 1){
-        if(mes1 == mes2 && ano1 == ano2){
-            qtdDias = dia1 - dia2;
-        }
-        else if(ano1 == ano2){
-            qtdDias = calculaDiasAteMes(mes1, ano2) - calculaDiasAteMes(mes2, ano2);
-            qtdDias = qtdDias + dia1 - dia2;
-        }
-        else{
-            difAnos = ano1 - ano2;
-            for(i = 0; i <= difAnos; i++){
-                if(i == 0){
-                    qtdDias = (calculaDiasAteMes(12, ano2) + 31) - calculaDiasAteMes(mes2, ano2);
-                }
-                else if(i == difAnos){
-                    qtdDias += calculaDiasAteMes(mes1, ano1) + dia1 - dia2;
-                }
-                else{
-                    qtdDias += (calculaDiasAteMes(12, ano2 + i) + 31);
-                }
-            }
-        }
-    }
+    // Corrigir o total de dias para anos bissextos passados
+    diasData1 += (ano1 / 4) - (ano1 / 100) + (ano1 / 400);
+    diasData2 += (ano2 / 4) - (ano2 / 100) + (ano2 / 400);
 
-    return qtdDias;
+    // Retornar a diferença entre os dias
+    return diasData2 - diasData1;
 }
 
 int calculaDiasAteMes(int mes, int ano){
@@ -172,56 +117,19 @@ int calculaDiasAteMes(int mes, int ano){
 }
 
 void imprimeProximaData(int dia, int mes, int ano){
-    int bissexto;
-    bissexto = verificaBissexto(ano);
-
-    if(mes == 2 && bissexto == 1){
-        if(dia < 29){
-            dia++;
-        }
-        else{
-            dia = 1; 
-            mes++;
-        }
-    }
-    else if(mes == 2 && bissexto == 0){
-        if(dia < 28){
-            dia++;
-        }
-        else{
-            dia = 1; 
-            mes++;
-        }
-    }
-    else if(mes == 4 || mes == 6 || mes == 9 || mes == 11){
-        if(dia < 30){
-            dia++;
-        }
-        else{
-            dia = 1; 
-            mes++;
-        }
-    }
-    else if(mes == 12){
-        if(dia < 31){
-            dia++;
-        }
-        else{
-            dia = 1; 
-            mes = 1;
-            ano++;
-        }
+    if(dia < numeroDiasMes(mes, ano)){
+        dia++;
     }
     else{
-        if(dia < 31){
-            dia++;
+        dia = 1;
+        if(mes == 12){
+            mes = 1;
         }
         else{
-            dia = 1; 
             mes++;
         }
     }
-
+    
     imprimeData(dia, mes, ano);
 }
 
