@@ -1,0 +1,67 @@
+==54573== Memcheck, a memory error detector
+==54573== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==54573== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==54573== Command: Resultados/Thais/completo/prog Resultados/Thais/completo/Casos/6
+==54573== Parent PID: 54572
+==54573== 
+==54573== Conditional jump or move depends on uninitialised value(s)
+==54573==    at 0x109AB7: EhPosicaoValidaTabuleiro (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573==    by 0x109345: JogaJogador (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573==    by 0x1095EB: ComecaJogo (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573==    by 0x1098AC: main (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573== 
+==54573== Conditional jump or move depends on uninitialised value(s)
+==54573==    at 0x109ABD: EhPosicaoValidaTabuleiro (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573==    by 0x109345: JogaJogador (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573==    by 0x1095EB: ComecaJogo (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573==    by 0x1098AC: main (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573== 
+==54573== Conditional jump or move depends on uninitialised value(s)
+==54573==    at 0x109AC3: EhPosicaoValidaTabuleiro (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573==    by 0x109345: JogaJogador (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573==    by 0x1095EB: ComecaJogo (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573==    by 0x1098AC: main (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573== 
+==54573== Use of uninitialised value of size 8
+==54573==    at 0x109B0F: EstaLivrePosicaoTabuleiro (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573==    by 0x10935F: JogaJogador (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573==    by 0x1095EB: ComecaJogo (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573==    by 0x1098AC: main (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573== 
+==54573== Conditional jump or move depends on uninitialised value(s)
+==54573==    at 0x48F2AD6: __vfprintf_internal (vfprintf-internal.c:1516)
+==54573==    by 0x48DC79E: printf (printf.c:33)
+==54573==    by 0x109390: JogaJogador (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573==    by 0x1095EB: ComecaJogo (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573==    by 0x1098AC: main (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573== 
+==54573== Use of uninitialised value of size 8
+==54573==    at 0x48D62EB: _itoa_word (_itoa.c:177)
+==54573==    by 0x48F1ABD: __vfprintf_internal (vfprintf-internal.c:1516)
+==54573==    by 0x48DC79E: printf (printf.c:33)
+==54573==    by 0x109390: JogaJogador (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573==    by 0x1095EB: ComecaJogo (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573==    by 0x1098AC: main (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573== 
+==54573== Conditional jump or move depends on uninitialised value(s)
+==54573==    at 0x48D62FC: _itoa_word (_itoa.c:177)
+==54573==    by 0x48F1ABD: __vfprintf_internal (vfprintf-internal.c:1516)
+==54573==    by 0x48DC79E: printf (printf.c:33)
+==54573==    by 0x109390: JogaJogador (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573==    by 0x1095EB: ComecaJogo (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573==    by 0x1098AC: main (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573== 
+==54573== Conditional jump or move depends on uninitialised value(s)
+==54573==    at 0x48F25C3: __vfprintf_internal (vfprintf-internal.c:1516)
+==54573==    by 0x48DC79E: printf (printf.c:33)
+==54573==    by 0x109390: JogaJogador (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573==    by 0x1095EB: ComecaJogo (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573==    by 0x1098AC: main (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573== 
+==54573== Conditional jump or move depends on uninitialised value(s)
+==54573==    at 0x48F1C05: __vfprintf_internal (vfprintf-internal.c:1516)
+==54573==    by 0x48DC79E: printf (printf.c:33)
+==54573==    by 0x109390: JogaJogador (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573==    by 0x1095EB: ComecaJogo (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573==    by 0x1098AC: main (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/completo/prog)
+==54573== 

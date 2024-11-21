@@ -1,0 +1,80 @@
+Jogador 0
+Digite uma posicao (x e y):
+Jogada [0,0]!
+	
+	
+	
+JOGADOR 1 Venceu!
+Jogar novamente? (s,n)
+Jogador 0
+Digite uma posicao (x e y):
+Jogada [0,0]!
+	
+	
+	
+JOGADOR 1 Venceu!
+Jogar novamente? (s,n)
+Jogador 0
+Digite uma posicao (x e y):
+Jogada [0,0]!
+	
+	
+	
+JOGADOR 1 Venceu!
+Jogar novamente? (s,n)
+Jogador 0
+Digite uma posicao (x e y):
+Jogada [0,0]!
+	
+	
+	
+JOGADOR 1 Venceu!
+Jogar novamente? (s,n)
+Jogador 0
+Digite uma posicao (x e y):
+Jogada [0,0]!
+	
+	
+	
+JOGADOR 1 Venceu!
+Jogar novamente? (s,n)
+Jogador 0
+Digite uma posicao (x e y):
+Jogada [0,0]!
+	
+	
+	
+JOGADOR 1 Venceu!
+Jogar novamente? (s,n)
+Jogador 0
+Digite uma posicao (x e y):
+Jogada [0,0]!
+	
+	
+	
+JOGADOR 1 Venceu!
+Jogar novamente? (s,n)
+Jogador 0
+Digite uma posicao (x e y):
+Jogada [0,0]!
+	
+	
+	
+JOGADOR 1 Venceu!
+Jogar novamente? (s,n)
+Jogador 0
+Digite uma posicao (x e y):
+Jogada [0,0]!
+	
+	
+	
+JOGADOR 1 Venceu!
+Jogar novamente? (s,n)
+Jogador 0
+Digite uma posicao (x e y):
+Jogada [0,0]!
+	
+	
+	
+JOGADOR 1 Venceu!
+Jogar novamente? (s,n)
