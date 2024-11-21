@@ -1,0 +1,15 @@
+==40860== Memcheck, a memory error detector
+==40860== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==40860== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==40860== Command: Resultados/Thais/completo/prog Resultados/Thais/completo/Casos/2
+==40860== Parent PID: 40859
+==40860== 
+==40860== 
+==40860== HEAP SUMMARY:
+==40860==     in use at exit: 0 bytes in 0 blocks
+==40860==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==40860== 
+==40860== All heap blocks were freed -- no leaks are possible
+==40860== 
+==40860== For lists of detected and suppressed errors, rerun with: -s
+==40860== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
