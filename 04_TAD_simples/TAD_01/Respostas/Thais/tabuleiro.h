@@ -18,21 +18,7 @@ typedef struct{
  * 
  * @return o tabuleiro criado.
  */
-tTabuleiro CriaTabuleiro(){
-    tTabuleiro tabuleiro;
-    tabuleiro.peca1 = 'X';
-    tabuleiro.peca2 = '0';
-    tabuleiro.pecaVazio = '-';
-
-    int i, j;
-    for(i = 0; i < TAM_TABULEIRO; i++){
-        for(j = 0; j < TAM_TABULEIRO; j++){
-            tabuleiro.posicoes[i][j] = tabuleiro.pecaVazio;
-        }
-    }
-
-    return tabuleiro;
-}
+tTabuleiro CriaTabuleiro();
 
 
 /**
@@ -45,30 +31,7 @@ tTabuleiro CriaTabuleiro(){
  * 
  * @return o tabuleiro atualizado.
  */
-tTabuleiro MarcaPosicaoTabuleiro(tTabuleiro tabuleiro, int peca, int x, int y){
-    int i, j;
-
-    if(EhPosicaoValidaTabuleiro(x, y)){
-        for(i = 0; i < TAM_TABULEIRO; i++){
-            for(j = 0; j < TAM_TABULEIRO; j++){
-                if(i == x && j == y){
-                    if(EstaLivrePosicaoTabuleiro(tabuleiro, i, j)){
-                        if(peca == PECA_1) tabuleiro.posicoes[i][j] = tabuleiro.peca1;
-                        else tabuleiro.posicoes[i][j] = tabuleiro.peca2;
-                    }
-                    else{
-                        printf("Posicao invalida (OCUPADA - [x,y] )!\n");
-                    }
-                }
-            }
-        }
-    }
-    else{
-        printf("Posicao invalida (FORA DO TABULEIRO - [x,y] )!\n");
-    }
-
-    return tabuleiro;
-}
+tTabuleiro MarcaPosicaoTabuleiro(tTabuleiro tabuleiro, int peca, int x, int y);
 
 
 /**
@@ -78,19 +41,7 @@ tTabuleiro MarcaPosicaoTabuleiro(tTabuleiro tabuleiro, int peca, int x, int y){
  * 
  * @return 1 se há posição livre, 0 caso contrário.
  */
-int TemPosicaoLivreTabuleiro(tTabuleiro tabuleiro){
-    int i, j, livre = 0;
-    for(i = 0; i < TAM_TABULEIRO; i++){
-        for(j = 0; j < TAM_TABULEIRO; j++){
-            if(tabuleiro.posicoes[i][j] == tabuleiro.pecaVazio){
-                livre++;
-            }
-        }
-    }
-
-    return livre;
-
-}
+int TemPosicaoLivreTabuleiro(tTabuleiro tabuleiro);
 
 
 /**
@@ -103,10 +54,7 @@ int TemPosicaoLivreTabuleiro(tTabuleiro tabuleiro){
  * 
  * @return 1 se a posição está marcada com a peça do jogador, 0 caso contrário.
  */
-int EstaMarcadaPosicaoPecaTabuleiro(tTabuleiro tabuleiro, int x, int y, int peca){
-    if(peca == PECA_1) return (tabuleiro.posicoes[x][y] = tabuleiro.peca1);
-    else return (tabuleiro.posicoes[x][y] = tabuleiro.peca2);
-}
+int EstaMarcadaPosicaoPecaTabuleiro(tTabuleiro tabuleiro, int x, int y, int peca);
 
 
 /**
@@ -118,9 +66,7 @@ int EstaMarcadaPosicaoPecaTabuleiro(tTabuleiro tabuleiro, int x, int y, int peca
  * 
  * @return 1 se a posição está livre, 0 caso contrário.
  */
-int EstaLivrePosicaoTabuleiro(tTabuleiro tabuleiro, int x, int y){
-    return tabuleiro.posicoes[x][y] = tabuleiro.pecaVazio;
-}
+int EstaLivrePosicaoTabuleiro(tTabuleiro tabuleiro, int x, int y);
 
 /**
  * Verifica se a posição do tabuleiro é válida.
@@ -129,9 +75,7 @@ int EstaLivrePosicaoTabuleiro(tTabuleiro tabuleiro, int x, int y){
  * @param y a coordenada y da posição a ser verificada.
  * @return 1 se a posição é válida, 0 caso contrário.
 */
-int EhPosicaoValidaTabuleiro(int x, int y){
-    return ((x >= 0 && x <= 2) && (y >= 0 && y <= 2));
-}
+int EhPosicaoValidaTabuleiro(int x, int y);
 
 
 /**
@@ -139,8 +83,6 @@ int EhPosicaoValidaTabuleiro(int x, int y){
  * 
  * @param tabuleiro o tabuleiro atual.
  */
-void ImprimeTabuleiro(tTabuleiro tabuleiro){
-    
-}
+void ImprimeTabuleiro(tTabuleiro tabuleiro);
 
 #endif

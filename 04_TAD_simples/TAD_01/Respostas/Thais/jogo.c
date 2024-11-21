@@ -1,17 +1,5 @@
-#ifndef _TABULEIRO_H
-#define _TABULEIRO_H
-
-
-#define TAM_TABULEIRO 3
-#define PECA_1 1
-#define PECA_2 2
-
-typedef struct{
-    char posicoes[TAM_TABULEIRO][TAM_TABULEIRO];
-    char peca1;
-    char peca2;
-    char pecaVazio;
-} tTabuleiro;
+#include "jogo.h"
+#include <stdio.h>
 
 /**
  * Cria um tabuleiro e retorna o tabuleiro criado.
@@ -57,14 +45,14 @@ tTabuleiro MarcaPosicaoTabuleiro(tTabuleiro tabuleiro, int peca, int x, int y){
                         else tabuleiro.posicoes[i][j] = tabuleiro.peca2;
                     }
                     else{
-                        printf("Posicao invalida (OCUPADA - [x,y] )!\n");
+                        printf("Posicao invalida (OCUPADA - [%d,%d] )!\n", x, y);
                     }
                 }
             }
         }
     }
     else{
-        printf("Posicao invalida (FORA DO TABULEIRO - [x,y] )!\n");
+        printf("Posicao invalida (FORA DO TABULEIRO - [%d,%d] )!\n", x, y);
     }
 
     return tabuleiro;
@@ -143,4 +131,157 @@ void ImprimeTabuleiro(tTabuleiro tabuleiro){
     
 }
 
-#endif
+
+
+
+/**
+ * Cria um jogador com o id passado como parâmetro e retorna o jogador criado.
+ * 
+ * @param idJogador o id do jogador (1 ou 2).
+ * 
+ * @return tJogador o jogador criado.
+ */
+tJogador CriaJogador(int idJogador){
+    tJogador jogador;
+    jogador.id = idJogador;
+    return jogador;
+}
+
+
+/**
+ * Recebe um jogador e um tabuleiro e retorna o tabuleiro com a jogada do jogador.
+ * 
+ * @param jogador o jogador que fará a jogada.
+ * @param tabuleiro o tabuleiro atual.
+ * 
+ * @return o tabuleiro atualizado com a jogada do jogador.
+ */
+tTabuleiro JogaJogador(tJogador jogador, tTabuleiro tabuleiro){
+    tJogada jogada;
+    int x, y;
+
+    jogada = LeJogada();
+    x = ObtemJogadaX(jogada);
+    y = ObtemJogadaY(jogada);
+
+    tabuleiro = MarcaPosicaoTabuleiro(tabuleiro, jogador.id, x, y);
+
+    return tabuleiro;
+}
+
+
+/**
+ * Recebe um jogador e um tabuleiro e retorna 1 se o jogador venceu e 0 caso contrário.
+ * 
+ * @param jogador o jogador a ser verificado.
+ * @param tabuleiro o tabuleiro atual.
+ * 
+ * @return 1 se o jogador venceu, 0 caso contrário.
+ */
+int VenceuJogador(tJogador jogador, tTabuleiro tabuleiro){
+    int venceu = 0;
+    char peca;
+    if(jogador.id == 1) peca = tabuleiro.peca1;
+    else peca = tabuleiro.peca2;
+
+    if((tabuleiro.posicoes[1][1] == peca && tabuleiro.posicoes[1][2] == peca && tabuleiro.posicoes[1][3] == peca) ||
+       (tabuleiro.posicoes[2][1] == peca && tabuleiro.posicoes[2][2] == peca && tabuleiro.posicoes[2][3] == peca) ||
+       (tabuleiro.posicoes[3][1] == peca && tabuleiro.posicoes[3][2] == peca && tabuleiro.posicoes[3][3] == peca) ||
+       (tabuleiro.posicoes[1][1] == peca && tabuleiro.posicoes[2][2] == peca && tabuleiro.posicoes[3][3] == peca) ||
+       (tabuleiro.posicoes[1][3] == peca && tabuleiro.posicoes[2][2] == peca && tabuleiro.posicoes[1][3] == peca) ||
+       (tabuleiro.posicoes[1][1] == peca && tabuleiro.posicoes[2][1] == peca && tabuleiro.posicoes[3][1] == peca) ||
+       (tabuleiro.posicoes[1][2] == peca && tabuleiro.posicoes[2][2] == peca && tabuleiro.posicoes[3][2] == peca) ||
+       (tabuleiro.posicoes[1][3] == peca && tabuleiro.posicoes[2][3] == peca && tabuleiro.posicoes[3][3] == peca)){
+            venceu = 1;
+       }
+
+    return venceu;
+}
+
+
+
+
+
+
+
+/**
+ * Lê uma jogada e retorna uma estrutura do tipo tJogada e define o valor da variavel sucesso.
+ * Se a jogada foi lida com sucesso, ou seja, foi lido um valor para x e outro para y, sucesso = 1, caso contrário, sucesso = 0.
+ * @return a jogada lida.
+ */
+tJogada LeJogada(){
+    tJogada jogada;
+    int sucesso;
+        sucesso = scanf("%d %d", &jogada.x, &jogada.y);
+        if(sucesso == 1) jogada.sucesso = 1;
+        else jogada.sucesso = 0;
+
+    return jogada;
+}
+
+
+/**
+ * Retorna a coordenada X da jogada.
+ * 
+ * @param jogada a jogada.
+ * 
+ * @return a coordenada X da jogada.
+ */
+int ObtemJogadaX(tJogada jogada){
+    return jogada.x;
+}
+
+
+/**
+ * Retorna a coordenada Y da jogada.
+ * 
+ * @param jogada a jogada.
+ * 
+ * @return a coordenada Y da jogada.
+ */
+int ObtemJogadaY(tJogada jogada){
+    return jogada.y;
+}
+
+
+/**
+ * Retorna 1 se a jogada foi bem sucedida e 0 caso contrário.
+ * 
+ * @param jogada a jogada.
+ * 
+ * @return 1 se a jogada foi bem sucedida, 0 caso contrário.
+ */
+int FoiJogadaBemSucedida(tJogada jogada){
+    return jogada.sucesso;
+}
+
+
+
+
+
+/**
+ * Cria um jogo e retorna o jogo criado.
+ * 
+ * @return o jogo criado.
+ */
+tJogo CriaJogo(){
+    tJogo jogo;
+    jogo.tabuleiro = CriaTabuleiro();
+    jogo.jogador1 = CriaJogador(PECA_1);
+    jogo.jogador2 = CriaJogador(PECA_2);
+
+    return jogo;
+}
+
+/**
+ * Inicia o jogo, definindo o tabuleiro e os jogadores.
+ * 
+ * @param jogo o jogo a ser iniciado.
+ */
+void ComecaJogo(tJogo jogo){
+    jogo = CriaJogo();
+
+    while(1){
+        JogaJogador(tJogador jogador, tTabuleiro tabuleiro)
+    }
+}
