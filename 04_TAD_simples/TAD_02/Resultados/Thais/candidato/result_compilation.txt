@@ -1,0 +1,12 @@
+candidato.c: In function ‘CalculaPercentualVotos’:
+candidato.c:71:26: error: expected ‘)’ before ‘candidato’
+   71 |     percentual = ((float(candidato.votos * 100)) / float(totalVotos));
+      |                          ^~~~~~~~~
+      |                          )
+candidato.c:71:52: error: expected expression before ‘float’
+   71 |     percentual = ((float(candidato.votos * 100)) / float(totalVotos));
+      |                                                    ^~~~~
+candidato.c: In function ‘ImprimeCandidato’:
+candidato.c:80:13: warning: spurious trailing ‘%’ in format [-Wformat=]
+   80 |     printf("%");
+      |             ^

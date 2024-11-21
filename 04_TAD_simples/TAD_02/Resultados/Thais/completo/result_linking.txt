@@ -1,0 +1,4 @@
+/usr/bin/ld: Resultados/Thais/completo/main.o: in function `main':
+main.c:(.text+0x28): undefined reference to `LeCandidato'
+/usr/bin/ld: main.c:(.text+0x5f): undefined reference to `ImprimeCandidato'
+collect2: error: ld returned 1 exit status

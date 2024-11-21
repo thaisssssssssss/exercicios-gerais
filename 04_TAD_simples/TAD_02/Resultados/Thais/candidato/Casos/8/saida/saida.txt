@@ -1,0 +1,1 @@
+valgrind: Resultados/Thais/candidato/prog: No such file or directory
