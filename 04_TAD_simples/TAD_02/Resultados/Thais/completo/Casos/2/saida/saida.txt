@@ -1,1 +1,2 @@
-valgrind: Resultados/Thais/completo/prog: No such file or directory
+6
+Ada Lovelace ( Gamers Unidos (GU)), 0 voto(s), 6.00%

@@ -1,4 +1,0 @@
-eleitor.c: In function ‘EhMesmoEleitor’:
-eleitor.c:34:16: warning: statement with no effect [-Wunused-value]
-   34 |         iguais == 1;
-      |         ~~~~~~~^~~~

@@ -29,11 +29,6 @@ int ObtemVotoGovernador(tEleitor eleitor){
 }
 
 int EhMesmoEleitor(tEleitor eleitor1, tEleitor eleitor2){
-    int iguais = 0;
-    if((eleitor1.id == eleitor2.id) && (eleitor1.votoP == eleitor2.votoP) && (eleitor1.votoG == eleitor2.votoG)){
-        iguais == 1;
-    }
-
-    return iguais;
+    return (eleitor1.id == eleitor2.id);
 }
 

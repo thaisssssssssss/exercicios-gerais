@@ -4,8 +4,10 @@
 
 tCandidato CriaCandidato(char *nome, char *partido, char cargo, int id){
     tCandidato candidato;
-    strcpy(candidato.nome, nome);
-    strcpy(candidato.partido, partido);
+    sprintf(candidato.nome, "%s", nome);
+    //strcpy(candidato.nome, nome);
+    //strcpy(candidato.partido, partido);
+    sprintf(candidato.partido, "%s", partido);
     candidato.cargo = cargo;
     candidato.id = id;
     candidato.votos = 0;
@@ -35,22 +37,7 @@ int VerificaIdCandidato(tCandidato candidato, int id){
 }
 
 int EhMesmoCandidato(tCandidato candidato1, tCandidato candidato2){
-    int iguais = 0;
-
-    if(strcmp(candidato1.nome, candidato2.nome) == 0){
-        iguais++;
-    }
-    if(strcmp(candidato1.partido, candidato2.partido) == 0){
-        iguais++;
-    }
-    if(candidato1.cargo == candidato2.cargo){
-        iguais++;
-    }
-    if(candidato1.id == candidato2.id){
-        iguais++;
-    }
-
-    return (iguais == 4);
+    return (candidato1.id == candidato2.id);
 }
 
 char ObtemCargo(tCandidato candidato){
@@ -68,7 +55,7 @@ int ObtemVotos(tCandidato candidato){
 
 float CalculaPercentualVotos(tCandidato candidato, int totalVotos){
     float percentual = 0;
-    percentual = ((float(candidato.votos * 100)) / float(totalVotos));
+    percentual = (((float)(candidato.votos * 100)) / ((float)(totalVotos)));
 
     return percentual;
 }
@@ -77,6 +64,6 @@ void ImprimeCandidato (tCandidato candidato, float percentualVotos){
     printf("%s ", candidato.nome);
     printf("(%s), ", candidato.partido);
     printf("%d voto(s), %.2f", candidato.votos, percentualVotos);
-    printf("%");
+    printf("%%");
     printf("\n");
 }
