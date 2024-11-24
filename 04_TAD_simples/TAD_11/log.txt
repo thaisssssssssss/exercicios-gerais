@@ -1,0 +1,146 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: Thais
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Thais:
+ - Diretório Resultados/Thais criado com sucesso!
+ - Diretório Resultados/Thais/main criado com sucesso!
+ - Diretório Resultados/Thais/completo criado com sucesso!
+ - Diretório Resultados/Thais/loja criado com sucesso!
+ - Diretório Resultados/Thais/vendedor criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Thais/loja.c' encontrado!
+ - Arquivo esperado 'Respostas/Thais/loja.h' encontrado!
+ - Arquivo esperado 'Respostas/Thais/main.c' encontrado!
+ - Arquivo esperado 'Respostas/Thais/vendedor.c' encontrado!
+ - Arquivo esperado 'Respostas/Thais/vendedor.h' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Thais/main
+ - Copiando os Includes/loja.h Includes/vendedor.h do professor para a pasta Resultados/Thais/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Thais/main
+ - Removendo o main.o do professor da pasta Resultados/Thais/main
+ - Copiando o Respostas/Thais/main.c do aluno para a pasta Resultados/Thais/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/Thais/completo
+ - Copiando os Respostas/Thais/loja.c do aluno para a pasta Resultados/Thais/completo
+ - Copiando os Respostas/Thais/loja.h do aluno para a pasta Resultados/Thais/completo
+ - Copiando os Respostas/Thais/main.c do aluno para a pasta Resultados/Thais/completo
+ - Copiando os Respostas/Thais/vendedor.c do aluno para a pasta Resultados/Thais/completo
+ - Copiando os Respostas/Thais/vendedor.h do aluno para a pasta Resultados/Thais/completo
+ - Pasta loja:
+ - Copiando os Casos de teste para a pasta Resultados/Thais/loja
+ - Copiando os Includes/loja.h Includes/vendedor.h do professor para a pasta Resultados/Thais/loja
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Thais/loja
+ - Removendo o loja.o do professor da pasta Resultados/Thais/loja
+ - Copiando o Respostas/Thais/loja.c do aluno para a pasta Resultados/Thais/loja
+ - Pasta vendedor:
+ - Copiando os Casos de teste para a pasta Resultados/Thais/vendedor
+ - Copiando os Includes/loja.h Includes/vendedor.h do professor para a pasta Resultados/Thais/vendedor
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Thais/vendedor
+ - Removendo o vendedor.o do professor da pasta Resultados/Thais/vendedor
+ - Copiando o Respostas/Thais/vendedor.c do aluno para a pasta Resultados/Thais/vendedor
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/Thais/main/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/Thais/completo/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta loja ok!
+ - Arquivo de output gerado: Resultados/Thais/loja/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta vendedor ok!
+ - Arquivo de output gerado: Resultados/Thais/vendedor/result_compilation.txt
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Thais/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Thais/completo/result_linking.txt
+ - Pasta loja:
+ - Gerando o binário prog linkando com o(s) arquivo(s) loja/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Thais/loja/result_linking.txt
+ - Pasta vendedor:
+ - Gerando o binário prog linkando com o(s) arquivo(s) vendedor/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Thais/vendedor/result_linking.txt
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso 1:
+ - Arquivo de output gerado: Resultados/Thais/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta main (máximo 2.50) - 10.00 de 10 - 100.00% de 2.50: 2.50.
+ -----
+ - Pasta completo / Caso 1:
+ - Arquivo de output gerado: Resultados/Thais/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta completo (máximo 2.50) - 10.00 de 10 - 100.00% de 2.50: 2.50.
+ -----
+ - Pasta loja / Caso 1:
+ - Arquivo de output gerado: Resultados/Thais/loja/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta loja (máximo 2.50) - 10.00 de 10 - 100.00% de 2.50: 2.50.
+ -----
+ - Pasta vendedor / Caso 1:
+ - Arquivo de output gerado: Resultados/Thais/vendedor/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta vendedor (máximo 2.50) - 10.00 de 10 - 100.00% de 2.50: 2.50.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: Thais
+ - Arquivos Esperados Corretos: 5 de 5
+ - Pastas Compiladas Corretamente: 4 de 4 
+ - Pastas Linkadas Corretamente: 4 de 4
+ - Teste main
+ - Resultados corretos: 1 de 1
+ - Valgrinds corretos: 1 de 1
+ - Nota de Thais para o teste main: 2.50
+ - Teste completo
+ - Resultados corretos: 1 de 1
+ - Valgrinds corretos: 1 de 1
+ - Nota de Thais para o teste completo: 2.50
+ - Teste loja
+ - Resultados corretos: 1 de 1
+ - Valgrinds corretos: 1 de 1
+ - Nota de Thais para o teste loja: 2.50
+ - Teste vendedor
+ - Resultados corretos: 1 de 1
+ - Valgrinds corretos: 1 de 1
+ - Nota de Thais para o teste vendedor: 2.50
+ - Nota de Thais: 0+(2.50)+(2.50)+(2.50)+(2.50)
+ - Nota de Thais: 10.00
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+

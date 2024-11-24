@@ -17,9 +17,9 @@ tEmpresa leEmpresa(){
     tFuncionario funcionario;
     int id, qtdFuncionarios, i;
 
-    scanf("%d %d", &id, &empresa.qtdFuncionarios);
+    scanf("%d %d", &id, &qtdFuncionarios);
     empresa = criaEmpresa(id);
-
+    empresa.qtdFuncionarios = qtdFuncionarios;
     for(i = 0; i < empresa.qtdFuncionarios; i++){
         funcionario = leFuncionario();
         empresa = contrataFuncionarioEmpresa(empresa, funcionario);

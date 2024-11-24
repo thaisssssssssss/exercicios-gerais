@@ -1,7 +1,4 @@
 empresa.c: In function ‘leEmpresa’:
-empresa.c:18:13: warning: unused variable ‘qtdFuncionarios’ [-Wunused-variable]
-   18 |     int id, qtdFuncionarios, i;
-      |             ^~~~~~~~~~~~~~~
 empresa.c:27:1: warning: control reaches end of non-void function [-Wreturn-type]
    27 | }
       | ^
