@@ -1,0 +1,12 @@
+locadora.c: In function ‘lerCadastroLocadora’:
+locadora.c:55:25: warning: unused variable ‘i’ [-Wunused-variable]
+   55 |     int cadastrado = 0, i, recebido = 0;
+      |                         ^
+locadora.c: In function ‘alugarFilmesLocadora’:
+locadora.c:83:18: warning: variable ‘aluguel’ set but not used [-Wunused-but-set-variable]
+   83 |     int estoque, aluguel, cadastrado = 0, qtdAlugados = 0, lucro = 0;
+      |                  ^~~~~~~
+locadora.c: In function ‘devolverFilmesLocadora’:
+locadora.c:143:9: warning: variable ‘estoque’ set but not used [-Wunused-but-set-variable]
+  143 |     int estoque, aluguel, cadastrado = 0, lucro = 0;
+      |         ^~~~~~~
