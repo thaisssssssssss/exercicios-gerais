@@ -1,4 +1,4 @@
-empresa.c: In function ‘leEmpresa’:
-empresa.c:27:1: warning: control reaches end of non-void function [-Wreturn-type]
-   27 | }
-      | ^
+empresa.c: In function ‘criaEmpresa’:
+empresa.c:13:9: warning: unused variable ‘i’ [-Wunused-variable]
+   13 |     int i;
+      |         ^

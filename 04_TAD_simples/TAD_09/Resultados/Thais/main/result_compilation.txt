@@ -1,4 +1,0 @@
-main.c: In function ‘main’:
-main.c:5:18: warning: variable ‘funcionario’ set but not used [-Wunused-but-set-variable]
-    5 |     tFuncionario funcionario;
-      |                  ^~~~~~~~~~~
