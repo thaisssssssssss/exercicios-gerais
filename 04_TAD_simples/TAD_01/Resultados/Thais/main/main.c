@@ -5,10 +5,12 @@
 #include <stdio.h>
 
 int main(){
+
+    while(1){
     tJogo jogo;
     int continua = 0;
 
-    while(1){
+        jogo = CriaJogo();
         ComecaJogo(jogo);
         continua = ContinuaJogo();
 

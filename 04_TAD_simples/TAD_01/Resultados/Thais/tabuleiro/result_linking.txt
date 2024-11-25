@@ -1,8 +1,0 @@
-/usr/bin/ld: Resultados/Thais/tabuleiro/jogador.o: in function `VenceuJogador':
-jogador.c:(.text+0x2a1): undefined reference to `EstaMarcadaPosicaoPecaTabuleiro'
-/usr/bin/ld: jogador.c:(.text+0x2c6): undefined reference to `EstaMarcadaPosicaoPecaTabuleiro'
-/usr/bin/ld: jogador.c:(.text+0x2eb): undefined reference to `EstaMarcadaPosicaoPecaTabuleiro'
-/usr/bin/ld: jogador.c:(.text+0x31a): undefined reference to `EstaMarcadaPosicaoPecaTabuleiro'
-/usr/bin/ld: jogador.c:(.text+0x33f): undefined reference to `EstaMarcadaPosicaoPecaTabuleiro'
-/usr/bin/ld: Resultados/Thais/tabuleiro/jogador.o:jogador.c:(.text+0x364): more undefined references to `EstaMarcadaPosicaoPecaTabuleiro' follow
-collect2: error: ld returned 1 exit status

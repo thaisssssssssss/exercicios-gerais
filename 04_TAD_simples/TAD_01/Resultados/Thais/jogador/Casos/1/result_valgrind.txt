@@ -1,72 +1,15 @@
-==55645== Memcheck, a memory error detector
-==55645== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==55645== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==55645== Command: Resultados/Thais/jogador/prog Resultados/Thais/jogador/Casos/1
-==55645== Parent PID: 55644
-==55645== 
-==55645== Conditional jump or move depends on uninitialised value(s)
-==55645==    at 0x109BA8: EhPosicaoValidaTabuleiro (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/jogador/prog)
-==55645==    by 0x109323: JogaJogador (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/jogador/prog)
-==55645==    by 0x1096AF: ComecaJogo (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/jogador/prog)
-==55645==    by 0x1098A9: main (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/jogador/prog)
-==55645== 
-==55645== Conditional jump or move depends on uninitialised value(s)
-==55645==    at 0x109BAE: EhPosicaoValidaTabuleiro (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/jogador/prog)
-==55645==    by 0x109323: JogaJogador (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/jogador/prog)
-==55645==    by 0x1096AF: ComecaJogo (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/jogador/prog)
-==55645==    by 0x1098A9: main (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/jogador/prog)
-==55645== 
-==55645== Conditional jump or move depends on uninitialised value(s)
-==55645==    at 0x109BB4: EhPosicaoValidaTabuleiro (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/jogador/prog)
-==55645==    by 0x109323: JogaJogador (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/jogador/prog)
-==55645==    by 0x1096AF: ComecaJogo (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/jogador/prog)
-==55645==    by 0x1098A9: main (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/jogador/prog)
-==55645== 
-==55645== Conditional jump or move depends on uninitialised value(s)
-==55645==    at 0x109BBA: EhPosicaoValidaTabuleiro (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/jogador/prog)
-==55645==    by 0x109323: JogaJogador (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/jogador/prog)
-==55645==    by 0x1096AF: ComecaJogo (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/jogador/prog)
-==55645==    by 0x1098A9: main (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/jogador/prog)
-==55645== 
-==55645== Use of uninitialised value of size 8
-==55645==    at 0x109B85: EstaLivrePosicaoTabuleiro (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/jogador/prog)
-==55645==    by 0x10933D: JogaJogador (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/jogador/prog)
-==55645==    by 0x1096AF: ComecaJogo (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/jogador/prog)
-==55645==    by 0x1098A9: main (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/jogador/prog)
-==55645== 
-==55645== Invalid read of size 1
-==55645==    at 0x109B85: EstaLivrePosicaoTabuleiro (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/jogador/prog)
-==55645==    by 0x10933D: JogaJogador (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/jogador/prog)
-==55645==    by 0x1096AF: ComecaJogo (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/jogador/prog)
-==55645==    by 0x1098A9: main (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/jogador/prog)
-==55645==  Address 0x2003a97718 is not stack'd, malloc'd or (recently) free'd
-==55645== 
-==55645== 
-==55645== Process terminating with default action of signal 11 (SIGSEGV)
-==55645==  Access not within mapped region at address 0x2003A97718
-==55645==    at 0x109B85: EstaLivrePosicaoTabuleiro (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/jogador/prog)
-==55645==    by 0x10933D: JogaJogador (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/jogador/prog)
-==55645==    by 0x1096AF: ComecaJogo (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/jogador/prog)
-==55645==    by 0x1098A9: main (in /home/tgbrandao/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/Thais/jogador/prog)
-==55645==  If you believe this happened as a result of a stack
-==55645==  overflow in your program's main thread (unlikely but
-==55645==  possible), you can try to increase the size of the
-==55645==  main thread stack using the --main-stacksize= flag.
-==55645==  The main thread stack size used in this run was 8388608.
-==55645== 
-==55645== HEAP SUMMARY:
-==55645==     in use at exit: 8,192 bytes in 2 blocks
-==55645==   total heap usage: 2 allocs, 0 frees, 8,192 bytes allocated
-==55645== 
-==55645== LEAK SUMMARY:
-==55645==    definitely lost: 0 bytes in 0 blocks
-==55645==    indirectly lost: 0 bytes in 0 blocks
-==55645==      possibly lost: 0 bytes in 0 blocks
-==55645==    still reachable: 8,192 bytes in 2 blocks
-==55645==         suppressed: 0 bytes in 0 blocks
-==55645== Reachable blocks (those to which a pointer was found) are not shown.
-==55645== To see them, rerun with: --leak-check=full --show-leak-kinds=all
-==55645== 
-==55645== Use --track-origins=yes to see where uninitialised values come from
-==55645== For lists of detected and suppressed errors, rerun with: -s
-==55645== ERROR SUMMARY: 6 errors from 6 contexts (suppressed: 0 from 0)
+==221225== Memcheck, a memory error detector
+==221225== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==221225== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==221225== Command: Resultados/Thais/jogador/prog Resultados/Thais/jogador/Casos/1
+==221225== Parent PID: 221224
+==221225== 
+==221225== 
+==221225== HEAP SUMMARY:
+==221225==     in use at exit: 0 bytes in 0 blocks
+==221225==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==221225== 
+==221225== All heap blocks were freed -- no leaks are possible
+==221225== 
+==221225== For lists of detected and suppressed errors, rerun with: -s
+==221225== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

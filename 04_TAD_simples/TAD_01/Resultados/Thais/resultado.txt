@@ -1,29 +1,29 @@
 Arquivos Esperados Corretos: 9 de 9
 Pastas Compiladas Corretamente: 6 de 6 
-Pastas Linkadas Corretamente: 5 de 6
+Pastas Linkadas Corretamente: 6 de 6
 Teste main
-  - Resultados corretos: 0 de 6
-  - Valgrinds corretos: 0 de 6
-Nota de Thais para o teste main: 0
-Teste completo
-  - Resultados corretos: 5 de 6
+  - Resultados corretos: 6 de 6
   - Valgrinds corretos: 6 de 6
-Nota de Thais para o teste completo: 1.37
+Nota de Thais para o teste main: 1.66
+Teste completo
+  - Resultados corretos: 6 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de Thais para o teste completo: 1.66
 Teste jogada
   - Resultados corretos: 6 de 6
   - Valgrinds corretos: 6 de 6
 Nota de Thais para o teste jogada: 1.67
 Teste jogador
-  - Resultados corretos: 0 de 6
-  - Valgrinds corretos: 4 de 6
-Nota de Thais para o teste jogador: 0
-Teste tabuleiro
-  - Resultados corretos: 0 de 6
-  - Valgrinds corretos: 0 de 6
-Nota de Thais para o teste tabuleiro: 0
-Teste jogo
-  - Resultados corretos: 0 de 6
+  - Resultados corretos: 6 de 6
   - Valgrinds corretos: 6 de 6
-Nota de Thais para o teste jogo: 0
-Nota de Thais: 0+(0)+(0)+(1.67)+(0)+(0)+(1.37)
-Nota de Thais: 3.04
+Nota de Thais para o teste jogador: 1.67
+Teste tabuleiro
+  - Resultados corretos: 6 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de Thais para o teste tabuleiro: 1.67
+Teste jogo
+  - Resultados corretos: 6 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de Thais para o teste jogo: 1.67
+Nota de Thais: 0+(1.67)+(1.67)+(1.66)+(1.66)+(1.67)+(1.67)
+Nota de Thais: 10.00

@@ -4,14 +4,33 @@
 #include "tabuleiro.h"
 #include <stdio.h>
 
+/**
+ * Cria um jogo e retorna o jogo criado.
+ * 
+ * @return o jogo criado.
+ */
+tJogo CriaJogo(){
+    tJogo jogo;
+    jogo.tabuleiro = CriaTabuleiro();
+    jogo.jogador1 = CriaJogador(PECA_1);
+    jogo.jogador2 = CriaJogador(PECA_2);
 
+    return jogo;
+}
+
+
+/**
+ * Inicia o jogo, definindo o tabuleiro e os jogadores.
+ * 
+ * @param jogo o jogo a ser iniciado.
+ */
 void ComecaJogo(tJogo jogo){
     jogo = CriaJogo();
     int venceu = 0;
 
         while(1){
-            printf("Jogador 1\n");
             jogo.tabuleiro = JogaJogador(jogo.jogador1, jogo.tabuleiro);
+            ImprimeTabuleiro(jogo.tabuleiro);
             venceu = VenceuJogador(jogo.jogador1, jogo.tabuleiro);
             if(venceu == 1){
                 printf("JOGADOR 1 Venceu!\n");
@@ -22,8 +41,8 @@ void ComecaJogo(tJogo jogo){
                 break;
             }
 
-            printf("Jogador 2\n");
             jogo.tabuleiro = JogaJogador(jogo.jogador2, jogo.tabuleiro);
+            ImprimeTabuleiro(jogo.tabuleiro);
             venceu = VenceuJogador(jogo.jogador2, jogo.tabuleiro);
             if(venceu == 1){
                 printf("JOGADOR 2 Venceu!\n");
@@ -35,24 +54,29 @@ void ComecaJogo(tJogo jogo){
             }
 
         }
-    
 }
 
-tJogo CriaJogo(){
-    tJogo jogo;
-    jogo.tabuleiro = CriaTabuleiro();
-    jogo.jogador1 = CriaJogador(PECA_1);
-    jogo.jogador2 = CriaJogador(PECA_2);
 
-    return jogo;
-}
-
+/**
+ * Verifica se o jogo acabou (se não há mais posições livres no tabuleiro).
+ * 
+ * @param jogo o jogo atual.
+ * 
+ * @return 1 se o jogo acabou, 0 caso contrário.
+ */
 int AcabouJogo(tJogo jogo){
-    int acabou = 0;
-    acabou = TemPosicaoLivreTabuleiro(jogo.tabuleiro);
+    int acabou;
+    if(TemPosicaoLivreTabuleiro(jogo.tabuleiro)) acabou = 0;
+    else acabou = 1;
     return acabou;
 }
 
+
+/**
+ * Verifica se o usuário deseja jogar novamente.
+ * 
+ * @return 1 se o usuário deseja jogar novamente, 0 caso contrário.
+ */
 int ContinuaJogo(){
     char jogarNovamente = '0';
 
@@ -60,13 +84,16 @@ int ContinuaJogo(){
         scanf("%*c");
         scanf("%c", &jogarNovamente);
 
-
-        if(jogarNovamente == 'n'){
-            return 0;
+        if(jogarNovamente == 'n') return 0;
+        else if(jogarNovamente == 's') return 1;
+        else{
+            scanf("%*c");
+            scanf("%*c");
+            scanf("%*c");
+            scanf("%*c");
+            scanf("%*c");
+            scanf("%c", &jogarNovamente);
+            if(jogarNovamente == 'n') return 0;
+            else if(jogarNovamente == 's') return 1;
         }
-        else if(jogarNovamente == 's'){
-            return 1;
-        }
-
 }
-
