@@ -1,0 +1,14 @@
+CC=gcc
+CFLAGS=-lm -Wall
+
+DEPS= tPonto.h tCirculo.h tRetangulo.h tTriangulo.h
+
+%.o: %.c $(DEPS)
+	$(CC) -c -o $@ $< $(CFLAGS)
+
+ponto: tPonto.o tCirculo.o tRetangulo.o tTriangulo.o main.o
+	$(CC) -o main tPonto.o tCirculo.o tRetangulo.o tTriangulo.o main.o $(CFLAGS)
+	echo "Compilado!"
+
+clean:
+	rm -rf *.o main
