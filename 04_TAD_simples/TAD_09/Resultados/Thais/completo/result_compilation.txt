@@ -1,4 +1,0 @@
-empresa.c: In function ‘criaEmpresa’:
-empresa.c:13:9: warning: unused variable ‘i’ [-Wunused-variable]
-   13 |     int i;
-      |         ^

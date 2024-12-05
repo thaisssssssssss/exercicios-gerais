@@ -1,31 +1,4 @@
-eleicao.c:26:3: error: conflicting types for ‘tEleicao’
-   26 | } tEleicao;
-      |   ^~~~~~~~
-In file included from eleicao.c:1:
-eleicao.h:27:3: note: previous declaration of ‘tEleicao’ was here
-   27 | } tEleicao;
-      |   ^~~~~~~~
-eleicao.c:33:10: error: conflicting types for ‘InicializaEleicao’
-   33 | tEleicao InicializaEleicao();
-      |          ^~~~~~~~~~~~~~~~~
-In file included from eleicao.c:1:
-eleicao.h:34:10: note: previous declaration of ‘InicializaEleicao’ was here
-   34 | tEleicao InicializaEleicao();
-      |          ^~~~~~~~~~~~~~~~~
-eleicao.c:41:10: error: conflicting types for ‘RealizaEleicao’
-   41 | tEleicao RealizaEleicao(tEleicao eleicao);
-      |          ^~~~~~~~~~~~~~
-In file included from eleicao.c:1:
-eleicao.h:42:10: note: previous declaration of ‘RealizaEleicao’ was here
-   42 | tEleicao RealizaEleicao(tEleicao eleicao);
-      |          ^~~~~~~~~~~~~~
-eleicao.c:47:6: error: conflicting types for ‘ImprimeResultadoEleicao’
-   47 | void ImprimeResultadoEleicao(tEleicao eleicao);
-      |      ^~~~~~~~~~~~~~~~~~~~~~~
-In file included from eleicao.c:1:
-eleicao.h:48:6: note: previous declaration of ‘ImprimeResultadoEleicao’ was here
-   48 | void ImprimeResultadoEleicao(tEleicao eleicao);
-      |      ^~~~~~~~~~~~~~~~~~~~~~~
-eleicao.c:49:2: error: #endif without #if
-   49 | #endif
-      |  ^~~~~
+eleicao.c: In function ‘RealizaEleicao’:
+eleicao.c:64:61: warning: unused variable ‘eleitorRepetido’ [-Wunused-variable]
+   64 |     int i, j, votoP, votoG, p, g, votoValido = 0, nulo = 0, eleitorRepetido = 0;
+      |                                                             ^~~~~~~~~~~~~~~

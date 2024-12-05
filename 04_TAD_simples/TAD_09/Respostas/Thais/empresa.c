@@ -1,5 +1,4 @@
 #include "empresa.h"
-#include "funcionario.h"
 #include <stdio.h>
 
 /**
@@ -9,11 +8,10 @@
  * @return TEmpresa empresa criada a partir do Id fornecido.
  */
 tEmpresa criaEmpresa(int id){
-    tEmpresa empresa;
-    int i;
-    empresa.id = id;
-    empresa.qtdFuncionarios = 0;
-    return empresa;
+    tEmpresa e;
+    e.id = id;
+    e.qtdFuncionarios = 0;
+    return e;
 }
 
 /**
@@ -22,20 +20,17 @@ tEmpresa criaEmpresa(int id){
  * @return TEmpresa empresa criada a partir dos dados lidos.
  */
 tEmpresa leEmpresa(){
-    tEmpresa empresa;
-    tFuncionario funcionario;
-    int id, qtdFuncionarios, i;
-
-    scanf("%d %d", &id, &qtdFuncionarios);
-    empresa = criaEmpresa(id);
+    tEmpresa e;
+    tFuncionario f;
+    int id, qtd, i;
+    scanf("%d %d", &id, &qtd);
+    e = criaEmpresa(id);
     
-    for(i = 0; i < qtdFuncionarios; i++){
-        funcionario = leFuncionario();
-        empresa = contrataFuncionarioEmpresa(empresa, funcionario);
-        empresa.qtdFuncionarios++;
+    for(i = 0; i < qtd; i++){
+        f = leFuncionario();
+        e = contrataFuncionarioEmpresa(e, f);
     }
-
-    return empresa;
+    return e;
 }
 
 /**
@@ -46,21 +41,23 @@ tEmpresa leEmpresa(){
  * @return TEmpresa empresa atualizada com a nova lista de funcionarios.
  */
 tEmpresa contrataFuncionarioEmpresa(tEmpresa empresa, tFuncionario funcionario){
-    int i;
-    int contratado = 0;
-    for(i = 0; i < empresa.qtdFuncionarios; i++){
-        if(funcionario.id == empresa.funcionarios[i].id){
-            contratado = 1;
-            empresa.qtdFuncionarios--;
-            printf("A empresa %d ja possui um funcionario com o id %d\n", empresa.id, funcionario.id);    
-            break;
+    int i, contratado = 0;
+    if(empresa.qtdFuncionarios == 0){
+        empresa.funcionarios[empresa.qtdFuncionarios] = funcionario;
+        empresa.qtdFuncionarios++;
+    }
+    else{
+        for(i = 0; i < empresa.qtdFuncionarios; i++){
+            if(empresa.funcionarios[i].id == funcionario.id){
+                contratado = 1;
+                printf("A empresa %d ja possui um funcionario com o id %d\n", empresa.id, empresa.funcionarios[i].id);
+            }
+        }
+        if(contratado == 0){
+            empresa.funcionarios[empresa.qtdFuncionarios] = funcionario;
+            empresa.qtdFuncionarios++;
         }
     }
-
-    if(contratado == 0){
-        empresa.funcionarios[empresa.qtdFuncionarios] = funcionario;
-    }
-
     return empresa;
 }
 
@@ -70,10 +67,9 @@ tEmpresa contrataFuncionarioEmpresa(tEmpresa empresa, tFuncionario funcionario){
  * @param empresa Empresa a ser impressa no terminal.
  */
 void imprimeEmpresa(tEmpresa empresa){
-    int i;
-    if(empresa.id != 0)
-    printf("Empresa %d:\n", empresa.id);
 
+    printf("Empresa %d:\n", empresa.id);
+    int i;
     for(i = 0; i < empresa.qtdFuncionarios; i++){
         imprimeFuncionario(empresa.funcionarios[i]);
     }

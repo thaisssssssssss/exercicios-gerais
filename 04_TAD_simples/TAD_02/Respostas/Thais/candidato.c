@@ -31,17 +31,25 @@ tCandidato LeCandidato(){
     char partido[50];
     char cargo;
     int id = 0;
-    scanf("[^\n]");
-    scanf("%*c");
-    scanf("%[^,]s", nome);
-    scanf("%*c%*c");
-    scanf("%[^,]s", partido);
-    scanf("%*c%*c");
-    scanf("%c%*c%*c", &cargo);
+    //Edsger Dijkstra, Partido do Melhor Caminho (PMC), P, 10
+    scanf("[^*\n]");
+    scanf("%*[^A-Z^a-z]");
+    scanf("%[^,]", nome);
+    scanf("%*[^A-Z^a-z]");
+    //scanf("%*c%*c");
+    scanf("%[^,]", partido);
+    scanf("%*[^A-Z^a-z]");
+    //scanf("%*c%*c");
+    scanf("%c", &cargo);
+    //scanf("[^*,], ");
+    //scanf("%*c%*c");
+    scanf("%*[^0-9]");
     scanf("%d", &id);
     tCandidato candidato;
     candidato.votos = 0;
     candidato = CriaCandidato(nome, partido, cargo, id);
+
+    //ImprimeCandidato (candidato, 0);
 
     return candidato;
 }

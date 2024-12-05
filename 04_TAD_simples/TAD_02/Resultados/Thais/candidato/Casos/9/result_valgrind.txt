@@ -1,24 +1,15 @@
-==50622== Memcheck, a memory error detector
-==50622== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==50622== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
-==50622== Command: Resultados/Thais/candidato/prog Resultados/Thais/candidato/Casos/9
-==50622== Parent PID: 50621
-==50622== 
-==50622== Conditional jump or move depends on uninitialised value(s)
-==50622==    at 0x10A782: ImprimeResultadoEleicao (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Thais/candidato/prog)
-==50622==    by 0x10AF66: main (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Thais/candidato/prog)
-==50622== 
-==50622== Conditional jump or move depends on uninitialised value(s)
-==50622==    at 0x10AB6F: ImprimeResultadoEleicao (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Thais/candidato/prog)
-==50622==    by 0x10AF66: main (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_02/Resultados/Thais/candidato/prog)
-==50622== 
-==50622== 
-==50622== HEAP SUMMARY:
-==50622==     in use at exit: 0 bytes in 0 blocks
-==50622==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
-==50622== 
-==50622== All heap blocks were freed -- no leaks are possible
-==50622== 
-==50622== Use --track-origins=yes to see where uninitialised values come from
-==50622== For lists of detected and suppressed errors, rerun with: -s
-==50622== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+==66474== Memcheck, a memory error detector
+==66474== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==66474== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==66474== Command: Resultados/Thais/candidato/prog Resultados/Thais/candidato/Casos/9
+==66474== Parent PID: 66473
+==66474== 
+==66474== 
+==66474== HEAP SUMMARY:
+==66474==     in use at exit: 0 bytes in 0 blocks
+==66474==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==66474== 
+==66474== All heap blocks were freed -- no leaks are possible
+==66474== 
+==66474== For lists of detected and suppressed errors, rerun with: -s
+==66474== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
