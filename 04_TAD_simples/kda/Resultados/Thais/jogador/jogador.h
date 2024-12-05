@@ -1,7 +1,16 @@
-#include "jogador.h"
-#include "registro.h"
-#include "servidor.h"
-#include <stdio.h>
+
+
+#ifndef _JOGADOR_H
+#define _JOGADOR_H
+
+typedef struct
+{
+    int id;
+    int kills;
+    int deaths;
+    int assists;
+    float valorKDA;
+} Jogador;
 
 /*
 Função que inicializa um jogador com ID passado por parâmetro
@@ -11,15 +20,7 @@ e o valor do KDA é inicializado com -1
 @param id: ID do jogador
 @return Jogador: Jogador inicializado
 */
-Jogador inicializaJogador(int id){
-    Jogador jogador;
-    jogador.id = id;
-    jogador.kills = 0;
-    jogador.deaths = 0;
-    jogador.assists = 0;
-    jogador.valorKDA = -1;
-    return jogador;
-}
+Jogador inicializaJogador(int id);
 
 /*
 Função que lê as estatísticas de um jogador a partir da entrada padrão e retorna um jogador inicializado
@@ -29,14 +30,7 @@ com essas estatísticas. O ID do jogador é passado por parâmetro. Uma vez lido
 @param id: ID do jogador
 @return Jogador: Jogador inicializado com as estatísticas lidas e o valor do KDA calculado
 */
-Jogador leJogador(int id){
-    Jogador jogador; 
-    jogador = inicializaJogador(id);
-    int k, d, a;
-    scanf("%d %d %d", &k, &d, &a);
-    jogador = atualizaJogador(jogador, id, k, d, a);
-    return jogador;
-}
+Jogador leJogador(int id);
 
 /*
 Função que calcula o valor do KDA de um jogador e armazena no campo valorKDA do próprio jogador
@@ -44,16 +38,7 @@ Função que calcula o valor do KDA de um jogador e armazena no campo valorKDA d
 @param j: Jogador
 @return float: Valor do KDA do jogador
 */
-float calculaKDA(Jogador j){
-    float valorKDA;
-    int k = getKillsJogador(j);
-    int d = getDeathsJogador(j);
-    int a = getAssistsJogador(j);
-
-    if(d == 0) valorKDA = (float)(k + a);
-    else valorKDA = (float)(k + a) / (float)d;
-    return valorKDA;
-}
+float calculaKDA(Jogador j);
 
 /*
 Essa função recebe um jogador cadastrado e atualiza suas estatísticas de acordo com os valores passados por parâmetro.
@@ -67,14 +52,7 @@ pelos valores passados por parâmetro. O valor do KDA é recalculado e armazenad
 @param a: Assists a serem incrementadas
 @return Jogador: Jogador atualizado
 */
-Jogador atualizaJogador(Jogador j, int id, int k, int d, int a){
-    j.id = id;
-    j.kills += k;
-    j.deaths += d;
-    j.assists += a;
-    j.valorKDA = calculaKDA(j);
-    return j;
-}
+Jogador atualizaJogador(Jogador j, int id, int k, int d, int a);
 
 /*
 Funçao que recebe um jogador e retorna o valor de kills do jogador
@@ -82,9 +60,7 @@ Funçao que recebe um jogador e retorna o valor de kills do jogador
 @param j: Jogador
 @return int: Kills do jogador
 */
-int getKillsJogador(Jogador j){
-    return j.kills;
-}
+int getKillsJogador(Jogador j);
 
 /*
 Funçao que recebe um jogador e retorna o valor de deaths do jogador
@@ -92,9 +68,7 @@ Funçao que recebe um jogador e retorna o valor de deaths do jogador
 @param j: Jogador
 @return int: deaths do jogador
 */
-int getDeathsJogador(Jogador j){
-    return j.deaths;
-}
+int getDeathsJogador(Jogador j);
 
 /*
 Funçao que recebe um jogador e retorna o valor de assists do jogador
@@ -102,9 +76,7 @@ Funçao que recebe um jogador e retorna o valor de assists do jogador
 @param j: Jogador
 @return int: Assists do jogador
 */
-int getAssistsJogador(Jogador j){
-    return j.assists;
-}
+int getAssistsJogador(Jogador j);
 
 /*
 Funçao que recebe um jogador e retorna o valor de ID do jogador
@@ -112,15 +84,13 @@ Funçao que recebe um jogador e retorna o valor de ID do jogador
 @param j: Jogador
 @return int: ID do jogador
 */
-int getIdJogador(Jogador j){
-    return j.id;
-}
+int getIdJogador(Jogador j);
 
 /*
 Funçao que recebe um jogador e imprime suas informações conforme o formato especificado
 
 @param j: Jogador
 */
-void printaJogador(Jogador j){
-    printf("Jogador %d: %d/%d/%d (%.2f)\n", j.id, j.kills, j.deaths, j.assists, j.valorKDA);
-}
+void printaJogador(Jogador j);
+
+#endif

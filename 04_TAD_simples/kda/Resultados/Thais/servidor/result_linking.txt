@@ -1,0 +1,4 @@
+/usr/bin/ld: Resultados/Thais/servidor/main.o: in function `main':
+main.c:(.text+0x47): undefined reference to `leRegistrosServidor'
+/usr/bin/ld: main.c:(.text+0x74): undefined reference to `criaRelatorioServidor'
+collect2: error: ld returned 1 exit status

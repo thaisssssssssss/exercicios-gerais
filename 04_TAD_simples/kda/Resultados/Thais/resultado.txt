@@ -1,0 +1,25 @@
+Arquivos Esperados Corretos: 7 de 7
+Pastas Compiladas Corretamente: 5 de 5 
+Pastas Linkadas Corretamente: 3 de 5
+Teste main
+  - Resultados corretos: 0 de 5
+  - Valgrinds corretos: 0 de 5
+Nota de Thais para o teste main: 
+Teste completo
+  - Resultados corretos: 0 de 5
+  - Valgrinds corretos: 0 de 5
+Nota de Thais para o teste completo: 
+Teste registro
+  - Resultados corretos: 0 de 5
+  - Valgrinds corretos: 0 de 5
+Nota de Thais para o teste registro: 
+Teste jogador
+  - Resultados corretos: 0 de 5
+  - Valgrinds corretos: 0 de 5
+Nota de Thais para o teste jogador: 
+Teste servidor
+  - Resultados corretos: 0 de 5
+  - Valgrinds corretos: 0 de 5
+Nota de Thais para o teste servidor: 
+Nota de Thais: 0+()+()+()+()+()
+Nota de Thais: 
