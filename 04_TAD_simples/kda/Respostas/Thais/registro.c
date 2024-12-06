@@ -16,7 +16,8 @@ Registro leRegistro(int idPartida){
 
     int i, id;
     for(i = 0; i < 5; i++){
-        scanf("%d", &id);
+        scanf("%*[^0-9]");
+        scanf("%d:", &id);
         registro.jogadores[i] = leJogador(id);
     }
     return registro;
