@@ -10,7 +10,7 @@ tPaciente lePaciente(){
     paciente.dataNascimento = leData();
     scanf("%*[^0-9]");
     scanf("%[^\n]", paciente.cartaoSus);
-    scanf("%*[^FM]");
+    scanf("%*[^FMO]");
     scanf("%c", &paciente.genero);
     paciente.numLesoes = 0;
     return paciente;
@@ -18,9 +18,11 @@ tPaciente lePaciente(){
 
 void imprimePaciente(tPaciente paciente){
     int i;
-    printf("\n- %s -", paciente.nome);
-    for(i = 0; i < paciente.numLesoes; i++){
-        imprimeLesao(paciente.lesoes[i]);
+    if(paciente.numLesoes != 0){
+        printf("\n- %s -", paciente.nome);
+        for(i = 0; i < paciente.numLesoes; i++){
+            imprimeLesao(paciente.lesoes[i]);
+        }
     }
     //printf("%s\n", paciente.cartaoSus);
     //printf("%c\n", paciente.genero);

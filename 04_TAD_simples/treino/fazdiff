@@ -1,0 +1,7 @@
+./prog < correcao/entrada_1 > outprog/saida_1
+./prog < correcao/entrada_2 > outprog/saida_2
+./prog < correcao/entrada_3 > outprog/saida_3
+./prog < correcao/entrada_4 > outprog/saida_4
+./prog < correcao/entrada_5 > outprog/saida_5
+./prog < correcao/entrada_6 > outprog/saida_6
+diff saida/ outprog/

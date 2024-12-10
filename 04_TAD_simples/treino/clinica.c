@@ -44,7 +44,7 @@ tClinica atendePacientes(tClinica clinica){
             }
         }
     }
-    clinica.mediaIdade = clinica.mediaIdade / clinica.totalPacientes;
+    if(clinica.totalPacientes != 0) clinica.mediaIdade = clinica.mediaIdade / clinica.totalPacientes;
     return clinica;
 }
 
@@ -54,7 +54,7 @@ void imprimeDadosClinica(tClinica clinica){
     printf("MEDIA IDADE (ANOS): %d\n", clinica.mediaIdade);
     printf("TOTAL LESOES: %d\n", clinica.totalLesoes);
     printf("TOTAL CIRURGIAS: %d\n", clinica.totalCirurgias);
-    printf("LISTA DE PACIENTES");
+    printf("LISTA DE PACIENTES:");
     for(i = 0; i < clinica.totalPacientes; i++){
         imprimePaciente(clinica.pacientes[i]);
     }
