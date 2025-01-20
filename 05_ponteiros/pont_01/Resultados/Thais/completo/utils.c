@@ -1,6 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "utils.h"
-#include <stdio.h>
-#include <stdio.h>
 
 /**
  * @brief Troca os valores de duas variáveis inteiras.
@@ -12,15 +12,14 @@
  * @return 1 se a troca foi realizada com sucesso, 0 caso contrário.
  */
 int TrocaInterios(int * n1, int * n2){
-    if(*n1 > *n2){
+    if(*n1 <= *n2){
+        return 0;
+    }
+    else{
         int aux;
         aux = *n1;
         *n1 = *n2;
         *n2 = aux;
         return 1;
     }
-    else{
-        return 0;
-    }
 }
-

@@ -152,7 +152,7 @@ Aluno: Thais
  - Resultados corretos: 4 de 4
  - Valgrinds corretos: 4 de 4
  - Nota de Thais para o teste utils: 3.33
- - Nota de Thais: 0+(3.34)+(3.33)+(3.33)
+ - Nota de Thais: 0+(3.33)+(3.33)+(3.34)
  - Nota de Thais: 10.00
 
 ----------------------------------------------------------------------------

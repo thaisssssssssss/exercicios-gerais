@@ -1,0 +1,11 @@
+evento.c: In function ‘cadastrarEvento’:
+evento.c:20:5: warning: value computed is not used [-Wunused-value]
+   20 |     *numEventos++;
+      |     ^~~~~~~~~~~~~
+evento.c: In function ‘trocarIndicesEventos’:
+evento.c:62:12: warning: unused variable ‘b’ [-Wunused-variable]
+   62 |     int a, b;
+      |            ^
+evento.c:62:9: warning: unused variable ‘a’ [-Wunused-variable]
+   62 |     int a, b;
+      |         ^

@@ -1,8 +1,7 @@
-main.c: In function ‘main’:
-main.c:8:9: warning: unused variable ‘primo’ [-Wunused-variable]
-    8 |     int primo;
-      |         ^~~~~
-utils.c: In function ‘ObtemMaiorEMenorPrimo’:
-utils.c:47:21: warning: unused variable ‘primo’ [-Wunused-variable]
-   47 |     int i, aux = 0, primo;
-      |                     ^~~~~
+utils.c: In function ‘EhPrimo’:
+utils.c:27:24: warning: unused variable ‘primo’ [-Wunused-variable]
+   27 |     int divisores = 0, primo = 0;
+      |                        ^~~~~
+utils.c:26:12: warning: unused variable ‘j’ [-Wunused-variable]
+   26 |     int i, j;
+      |            ^

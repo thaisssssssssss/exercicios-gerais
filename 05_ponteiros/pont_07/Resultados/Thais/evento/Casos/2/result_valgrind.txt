@@ -1,0 +1,15 @@
+==90446== Memcheck, a memory error detector
+==90446== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==90446== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==90446== Command: Resultados/Thais/evento/prog Resultados/Thais/evento/Casos/2
+==90446== Parent PID: 90445
+==90446== 
+==90446== 
+==90446== HEAP SUMMARY:
+==90446==     in use at exit: 0 bytes in 0 blocks
+==90446==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==90446== 
+==90446== All heap blocks were freed -- no leaks are possible
+==90446== 
+==90446== For lists of detected and suppressed errors, rerun with: -s
+==90446== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

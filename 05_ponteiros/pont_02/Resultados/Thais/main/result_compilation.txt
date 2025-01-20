@@ -1,4 +1,0 @@
-main.c: In function ‘main’:
-main.c:8:9: warning: unused variable ‘primo’ [-Wunused-variable]
-    8 |     int primo;
-      |         ^~~~~

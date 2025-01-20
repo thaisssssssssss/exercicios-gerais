@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "utils.h"
 #include <stdlib.h>
+#include "utils.h"
 
 /**
  * @brief Lê do usuário um intervalo de números inteiros.
@@ -23,14 +23,15 @@ void LeIntervalo(int * m, int * n){
  * @return 1 se o número é primo, 0 caso contrário.
  */
 int EhPrimo(int n){
-    int divisor = 0, i;
+    int i, j;
+    int divisores = 0, primo = 0;
+
     for(i = 1; i <= n; i++){
-        if(n % i == 0){
-            divisor++;
-        }
+        if(n%i == 0) divisores++;
     }
-    if(divisor > 2) return 0;
-    else return 1;
+
+    if(divisores == 2) return 1;
+    else return 0;
 }
 
 /**
@@ -44,7 +45,8 @@ int EhPrimo(int n){
  * @param maior Ponteiro para a variável que receberá o maior número primo encontrado.
  */
 void ObtemMaiorEMenorPrimo(int m, int n, int *menor, int *maior){
-    int i, aux = 0, primo;
+    int i, aux = 0;
+
     for(i = m; i <= n; i++){
         if(EhPrimo(i)){
             if(aux == 0){
@@ -52,10 +54,7 @@ void ObtemMaiorEMenorPrimo(int m, int n, int *menor, int *maior){
                 *maior = i;
                 aux++;
             }
-            else{
-                *maior = i;
-            }
+            else *maior = i;
         }
     }
 }
-
