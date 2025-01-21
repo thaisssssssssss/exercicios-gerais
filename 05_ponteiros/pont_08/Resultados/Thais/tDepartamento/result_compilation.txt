@@ -1,0 +1,4 @@
+tDepartamento.c: In function ‘OrdenaDepartamentosPorMedia’:
+tDepartamento.c:60:19: warning: unused variable ‘aux’ [-Wunused-variable]
+   60 |     tDepartamento aux;
+      |                   ^~~
