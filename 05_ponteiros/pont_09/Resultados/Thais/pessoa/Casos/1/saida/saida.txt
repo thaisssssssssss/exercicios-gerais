@@ -1,0 +1,20 @@
+NOME COMPLETO: Felipe Oliveira
+MAE: Ana Oliveira
+PAI: Joao Rodrigues
+
+NOME COMPLETO: Mariana Rodrigues
+MAE: Laura Rodrigues
+PAI: Joao Rodrigues
+
+NOME COMPLETO: Isabela Alves
+MAE: Carolina Alves
+PAI: Matheus Alves
+
+NOME COMPLETO: Maria Silva
+MAE: Joao Rodrigues
+PAI: Luiz Silva
+
+NOME COMPLETO: Lucas Pereira
+MAE: Sofia Pereira
+PAI: Joao Rodrigues
+

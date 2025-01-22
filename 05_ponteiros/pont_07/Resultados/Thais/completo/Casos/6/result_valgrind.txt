@@ -1,16 +1,16 @@
-==89992== Memcheck, a memory error detector
-==89992== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==89992== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==89992== Command: Resultados/Thais/completo/prog Resultados/Thais/completo/Casos/6
-==89992== Parent PID: 89991
-==89992== 
-==89992== Conditional jump or move depends on uninitialised value(s)
-==89992==    at 0x484F37F: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==89992==    by 0x109251: cadastrarEvento (in /home/thaisgb/exercicios-gerais/05_ponteiros/pont_07/Resultados/Thais/completo/prog)
-==89992==    by 0x1096C8: main (in /home/thaisgb/exercicios-gerais/05_ponteiros/pont_07/Resultados/Thais/completo/prog)
-==89992== 
-==89992== Conditional jump or move depends on uninitialised value(s)
-==89992==    at 0x484F397: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==89992==    by 0x109251: cadastrarEvento (in /home/thaisgb/exercicios-gerais/05_ponteiros/pont_07/Resultados/Thais/completo/prog)
-==89992==    by 0x1096C8: main (in /home/thaisgb/exercicios-gerais/05_ponteiros/pont_07/Resultados/Thais/completo/prog)
-==89992== 
+==13641== Memcheck, a memory error detector
+==13641== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==13641== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==13641== Command: Resultados/Thais/completo/prog Resultados/Thais/completo/Casos/6
+==13641== Parent PID: 13640
+==13641== 
+==13641== Conditional jump or move depends on uninitialised value(s)
+==13641==    at 0x484F37F: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13641==    by 0x109251: cadastrarEvento (in /home/thaisgb/exercicios-gerais/05_ponteiros/pont_07/Resultados/Thais/completo/prog)
+==13641==    by 0x1096C8: main (in /home/thaisgb/exercicios-gerais/05_ponteiros/pont_07/Resultados/Thais/completo/prog)
+==13641== 
+==13641== Conditional jump or move depends on uninitialised value(s)
+==13641==    at 0x484F397: strcpy (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==13641==    by 0x109251: cadastrarEvento (in /home/thaisgb/exercicios-gerais/05_ponteiros/pont_07/Resultados/Thais/completo/prog)
+==13641==    by 0x1096C8: main (in /home/thaisgb/exercicios-gerais/05_ponteiros/pont_07/Resultados/Thais/completo/prog)
+==13641== 

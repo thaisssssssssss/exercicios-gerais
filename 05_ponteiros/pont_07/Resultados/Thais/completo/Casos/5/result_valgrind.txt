@@ -1,37 +1,37 @@
-==89793== Memcheck, a memory error detector
-==89793== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==89793== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==89793== Command: Resultados/Thais/completo/prog Resultados/Thais/completo/Casos/5
-==89793== Parent PID: 89792
-==89793== 
-==89793== Invalid write of size 4
-==89793==    at 0x109411: trocarDataEvento (in /home/thaisgb/exercicios-gerais/05_ponteiros/pont_07/Resultados/Thais/completo/prog)
-==89793==    by 0x109713: main (in /home/thaisgb/exercicios-gerais/05_ponteiros/pont_07/Resultados/Thais/completo/prog)
-==89793==  Address 0x1fff025264 is not stack'd, malloc'd or (recently) free'd
-==89793== 
-==89793== 
-==89793== Process terminating with default action of signal 11 (SIGSEGV)
-==89793==  Access not within mapped region at address 0x1FFF025264
-==89793==    at 0x109411: trocarDataEvento (in /home/thaisgb/exercicios-gerais/05_ponteiros/pont_07/Resultados/Thais/completo/prog)
-==89793==    by 0x109713: main (in /home/thaisgb/exercicios-gerais/05_ponteiros/pont_07/Resultados/Thais/completo/prog)
-==89793==  If you believe this happened as a result of a stack
-==89793==  overflow in your program's main thread (unlikely but
-==89793==  possible), you can try to increase the size of the
-==89793==  main thread stack using the --main-stacksize= flag.
-==89793==  The main thread stack size used in this run was 8388608.
-==89793== 
-==89793== HEAP SUMMARY:
-==89793==     in use at exit: 8,192 bytes in 2 blocks
-==89793==   total heap usage: 2 allocs, 0 frees, 8,192 bytes allocated
-==89793== 
-==89793== LEAK SUMMARY:
-==89793==    definitely lost: 0 bytes in 0 blocks
-==89793==    indirectly lost: 0 bytes in 0 blocks
-==89793==      possibly lost: 0 bytes in 0 blocks
-==89793==    still reachable: 8,192 bytes in 2 blocks
-==89793==         suppressed: 0 bytes in 0 blocks
-==89793== Reachable blocks (those to which a pointer was found) are not shown.
-==89793== To see them, rerun with: --leak-check=full --show-leak-kinds=all
-==89793== 
-==89793== For lists of detected and suppressed errors, rerun with: -s
-==89793== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+==13447== Memcheck, a memory error detector
+==13447== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==13447== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==13447== Command: Resultados/Thais/completo/prog Resultados/Thais/completo/Casos/5
+==13447== Parent PID: 13446
+==13447== 
+==13447== Invalid write of size 4
+==13447==    at 0x109411: trocarDataEvento (in /home/thaisgb/exercicios-gerais/05_ponteiros/pont_07/Resultados/Thais/completo/prog)
+==13447==    by 0x109713: main (in /home/thaisgb/exercicios-gerais/05_ponteiros/pont_07/Resultados/Thais/completo/prog)
+==13447==  Address 0x1fff025264 is not stack'd, malloc'd or (recently) free'd
+==13447== 
+==13447== 
+==13447== Process terminating with default action of signal 11 (SIGSEGV)
+==13447==  Access not within mapped region at address 0x1FFF025264
+==13447==    at 0x109411: trocarDataEvento (in /home/thaisgb/exercicios-gerais/05_ponteiros/pont_07/Resultados/Thais/completo/prog)
+==13447==    by 0x109713: main (in /home/thaisgb/exercicios-gerais/05_ponteiros/pont_07/Resultados/Thais/completo/prog)
+==13447==  If you believe this happened as a result of a stack
+==13447==  overflow in your program's main thread (unlikely but
+==13447==  possible), you can try to increase the size of the
+==13447==  main thread stack using the --main-stacksize= flag.
+==13447==  The main thread stack size used in this run was 8388608.
+==13447== 
+==13447== HEAP SUMMARY:
+==13447==     in use at exit: 8,192 bytes in 2 blocks
+==13447==   total heap usage: 2 allocs, 0 frees, 8,192 bytes allocated
+==13447== 
+==13447== LEAK SUMMARY:
+==13447==    definitely lost: 0 bytes in 0 blocks
+==13447==    indirectly lost: 0 bytes in 0 blocks
+==13447==      possibly lost: 0 bytes in 0 blocks
+==13447==    still reachable: 8,192 bytes in 2 blocks
+==13447==         suppressed: 0 bytes in 0 blocks
+==13447== Reachable blocks (those to which a pointer was found) are not shown.
+==13447== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==13447== 
+==13447== For lists of detected and suppressed errors, rerun with: -s
+==13447== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

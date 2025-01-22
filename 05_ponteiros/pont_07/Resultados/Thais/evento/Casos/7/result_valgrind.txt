@@ -1,18 +1,18 @@
-==91095== Memcheck, a memory error detector
-==91095== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==91095== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==91095== Command: Resultados/Thais/evento/prog Resultados/Thais/evento/Casos/7
-==91095== Parent PID: 91094
-==91095== 
-==91095== Use of uninitialised value of size 8
-==91095==    at 0x109411: trocarDataEvento (in /home/thaisgb/exercicios-gerais/05_ponteiros/pont_07/Resultados/Thais/evento/prog)
-==91095==    by 0x10974A: main (in /home/thaisgb/exercicios-gerais/05_ponteiros/pont_07/Resultados/Thais/evento/prog)
-==91095== 
-==91095== Use of uninitialised value of size 8
-==91095==    at 0x10942A: trocarDataEvento (in /home/thaisgb/exercicios-gerais/05_ponteiros/pont_07/Resultados/Thais/evento/prog)
-==91095==    by 0x10974A: main (in /home/thaisgb/exercicios-gerais/05_ponteiros/pont_07/Resultados/Thais/evento/prog)
-==91095== 
-==91095== Use of uninitialised value of size 8
-==91095==    at 0x109443: trocarDataEvento (in /home/thaisgb/exercicios-gerais/05_ponteiros/pont_07/Resultados/Thais/evento/prog)
-==91095==    by 0x10974A: main (in /home/thaisgb/exercicios-gerais/05_ponteiros/pont_07/Resultados/Thais/evento/prog)
-==91095== 
+==14825== Memcheck, a memory error detector
+==14825== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==14825== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==14825== Command: Resultados/Thais/evento/prog Resultados/Thais/evento/Casos/7
+==14825== Parent PID: 14824
+==14825== 
+==14825== Use of uninitialised value of size 8
+==14825==    at 0x109411: trocarDataEvento (in /home/thaisgb/exercicios-gerais/05_ponteiros/pont_07/Resultados/Thais/evento/prog)
+==14825==    by 0x10974A: main (in /home/thaisgb/exercicios-gerais/05_ponteiros/pont_07/Resultados/Thais/evento/prog)
+==14825== 
+==14825== Use of uninitialised value of size 8
+==14825==    at 0x10942A: trocarDataEvento (in /home/thaisgb/exercicios-gerais/05_ponteiros/pont_07/Resultados/Thais/evento/prog)
+==14825==    by 0x10974A: main (in /home/thaisgb/exercicios-gerais/05_ponteiros/pont_07/Resultados/Thais/evento/prog)
+==14825== 
+==14825== Use of uninitialised value of size 8
+==14825==    at 0x109443: trocarDataEvento (in /home/thaisgb/exercicios-gerais/05_ponteiros/pont_07/Resultados/Thais/evento/prog)
+==14825==    by 0x10974A: main (in /home/thaisgb/exercicios-gerais/05_ponteiros/pont_07/Resultados/Thais/evento/prog)
+==14825== 
