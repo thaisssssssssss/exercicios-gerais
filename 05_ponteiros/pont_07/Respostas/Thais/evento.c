@@ -59,7 +59,6 @@ void trocarDataEvento(Evento* eventos, int* numEventos){
  * @param numEventos Ponteiro para o número total de eventos cadastrados.
  */
 void trocarIndicesEventos(Evento* eventos, int* indiceA, int* indiceB, int* numEventos){
-    int a, b;
     if(*indiceA >= *numEventos) printf("Indice invalido!\n");
     else if(*indiceB >= *numEventos) printf("Indice invalido!\n");
     else{

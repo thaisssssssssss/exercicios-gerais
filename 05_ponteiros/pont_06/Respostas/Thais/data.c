@@ -114,6 +114,8 @@ int EhIgual( tData *data1, tData *data2 ){
     if(data2->mes < 1) data2->mes = 1;
     else if(data2->mes > 12) data2->mes = 12;
 
+
+
     if(data1->dia == data2->dia){
         if(data1->mes == data2->mes){
             if(data1->ano == data2->ano) return 1;

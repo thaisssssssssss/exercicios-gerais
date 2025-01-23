@@ -18,7 +18,7 @@ int main(){
         switch (opcao){
             case 1:
                 cadastrarEvento(eventos, &numEventos);
-                printf("Evento cadastrado com sucesso!\n");
+                //printf("Evento cadastrado com sucesso!\n");
                 break;
             case 2:
                 exibirEventos(eventos, &numEventos);

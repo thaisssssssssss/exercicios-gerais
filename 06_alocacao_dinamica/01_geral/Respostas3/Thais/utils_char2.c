@@ -1,7 +1,8 @@
-#ifndef _UTILS_CHAR_H_
-#define _UTILS_CHAR_H_
-
-#define TAM_PADRAO 10
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "utils_char2.h"
+#include <assert.h>
 
 /**
  * Cria um vetor de caracteres que consegue armazenar uma string de tamanho igual a "TAM_PADRAO", alocado dinamicamente.
@@ -10,7 +11,18 @@
  * 
  * @return Ponteiro para o vetor criado.
  */
-char *CriaVetorTamPadrao();
+char *CriaVetorTamPadrao(){
+    char *vet;
+    vet = malloc(TAM_PADRAO * sizeof(char));
+    assert(vet != NULL);
+    int i;
+    for(i = 0; i < TAM_PADRAO; i++){
+        vet[i] = '_';
+    }
+    return vet;
+}
+
+
 
 /**
  * Aumenta o tamanho de um vetor alocado dinamicamente
@@ -20,7 +32,16 @@ char *CriaVetorTamPadrao();
  * @param tamanhoantigo Tamanho do vetor a ser modificado
  * @return Ponteiro para o novo vetor.
  */
-char *AumentaTamanhoVetor(char* vetor, int tamanhoantigo);
+char *AumentaTamanhoVetor(char* vetor, int tamanhoantigo){
+    char *NewVetor;
+    //printf("%d", tamanhoantigo);
+
+    NewVetor = realloc(vetor, (tamanhoantigo + TAM_PADRAO) * sizeof(char));
+    //LiberaVetor(vetor);
+
+    //tamanhoantigo = tamanhoantigo + TAM_PADRAO;
+    return NewVetor;
+}
 
 /**
  * Lê uma string do tamanho especificado até um enter ser apertado.
@@ -31,20 +52,42 @@ char *AumentaTamanhoVetor(char* vetor, int tamanhoantigo);
  * @param tamanho* Ponteiro para uma variável do tipo inteiro que armazena o tamanho atual do vetor.
  * @return Um ponteiro para o vetor lido.
 */
-char* LeVetor(char *vetor, int *tamanho);
+char* LeVetor(char *vetor, int *tamanho){
+    scanf("%[^\n]", vetor);
+    int i;
+    for(i = 0; vetor[i]; i++){
+        if(i != 0 && i % 10 == 0){
+            AumentaTamanhoVetor(vetor, *tamanho);   
+            *tamanho =  *tamanho + TAM_PADRAO;
+        } 
+    }
+    return vetor;
+}
 
 /**
  * Imprime a string
  * 
  * @param vetor Ponteiro para o vetor a ser imprimido.
 */
-void ImprimeString(char *vetor);
+void ImprimeString(char *vetor){
+    printf("%s", vetor);
+    int i;
+    for(i = 0; vetor[i]; i++);
+    int resto = i % 10;
+    resto = 10 - resto;
+    for(i = 0; i < resto; i++){
+        printf("_");
+    }
+    //printf("\n");
+    //printf("(%d)\n", i);
+}
 
 /**
  * Libera a memória alocada para um vetor de caracteres.
  * 
  * @param vetor Ponteiro para o vetor a ser liberado.
 */
-void LiberaVetor(char *vetor);
+void LiberaVetor(char *vetor){
+    free(vetor);
+}
 
-#endif
