@@ -1,0 +1,35 @@
+==43277== Memcheck, a memory error detector
+==43277== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==43277== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==43277== Command: Resultados/Thais/utils_char/prog Resultados/Thais/utils_char/Casos/2
+==43277== Parent PID: 43276
+==43277== 
+==43277== Invalid read of size 1
+==43277==    at 0x484F234: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==43277==    by 0x48E6BEC: puts (ioputs.c:35)
+==43277==    by 0x1093C4: ImprimeString (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_03/Resultados/Thais/utils_char/prog)
+==43277==    by 0x1091C9: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_03/Resultados/Thais/utils_char/prog)
+==43277==  Address 0x4a75086 is 0 bytes after a block of size 6 alloc'd
+==43277==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==43277==    by 0x10922E: CriaVetor (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_03/Resultados/Thais/utils_char/prog)
+==43277==    by 0x1091B4: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_03/Resultados/Thais/utils_char/prog)
+==43277== 
+==43277== Invalid read of size 1
+==43277==    at 0x484F234: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==43277==    by 0x48E6BEC: puts (ioputs.c:35)
+==43277==    by 0x1093C4: ImprimeString (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_03/Resultados/Thais/utils_char/prog)
+==43277==    by 0x1091EB: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_03/Resultados/Thais/utils_char/prog)
+==43277==  Address 0x4a75086 is 0 bytes after a block of size 6 alloc'd
+==43277==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==43277==    by 0x10922E: CriaVetor (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_03/Resultados/Thais/utils_char/prog)
+==43277==    by 0x1091B4: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_03/Resultados/Thais/utils_char/prog)
+==43277== 
+==43277== 
+==43277== HEAP SUMMARY:
+==43277==     in use at exit: 0 bytes in 0 blocks
+==43277==   total heap usage: 3 allocs, 3 frees, 8,198 bytes allocated
+==43277== 
+==43277== All heap blocks were freed -- no leaks are possible
+==43277== 
+==43277== For lists of detected and suppressed errors, rerun with: -s
+==43277== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)

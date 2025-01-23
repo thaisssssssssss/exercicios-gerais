@@ -8,10 +8,7 @@ int main(){
     scanf("%d", &tamanho);
     char *vet = CriaVetor(tamanho);
     ImprimeString(vet, tamanho);
-
-
     LeVetor(vet, tamanho);
-    
     ImprimeString(vet, tamanho);
     LiberaVetor(vet);
     return 0;

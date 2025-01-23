@@ -1,0 +1,35 @@
+==42510== Memcheck, a memory error detector
+==42510== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==42510== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==42510== Command: Resultados/Thais/completo/prog Resultados/Thais/completo/Casos/4
+==42510== Parent PID: 42509
+==42510== 
+==42510== Invalid read of size 1
+==42510==    at 0x484F234: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==42510==    by 0x48E6BEC: puts (ioputs.c:35)
+==42510==    by 0x109418: ImprimeString (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_03/Resultados/Thais/completo/prog)
+==42510==    by 0x10921D: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_03/Resultados/Thais/completo/prog)
+==42510==  Address 0x4a75116 is 0 bytes after a block of size 150 alloc'd
+==42510==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==42510==    by 0x109282: CriaVetor (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_03/Resultados/Thais/completo/prog)
+==42510==    by 0x109208: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_03/Resultados/Thais/completo/prog)
+==42510== 
+==42510== Invalid read of size 1
+==42510==    at 0x484F234: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==42510==    by 0x48E6BEC: puts (ioputs.c:35)
+==42510==    by 0x109418: ImprimeString (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_03/Resultados/Thais/completo/prog)
+==42510==    by 0x10923F: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_03/Resultados/Thais/completo/prog)
+==42510==  Address 0x4a75116 is 0 bytes after a block of size 150 alloc'd
+==42510==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==42510==    by 0x109282: CriaVetor (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_03/Resultados/Thais/completo/prog)
+==42510==    by 0x109208: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/01_geral/aloc_03/Resultados/Thais/completo/prog)
+==42510== 
+==42510== 
+==42510== HEAP SUMMARY:
+==42510==     in use at exit: 0 bytes in 0 blocks
+==42510==   total heap usage: 3 allocs, 3 frees, 8,342 bytes allocated
+==42510== 
+==42510== All heap blocks were freed -- no leaks are possible
+==42510== 
+==42510== For lists of detected and suppressed errors, rerun with: -s
+==42510== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
