@@ -1,0 +1,14 @@
+main.c: In function ‘main’:
+main.c:20:50: error: ‘adicionar’ undeclared (first use in this function)
+   20 |                 resultado = Calcular(num1, num2, adicionar);
+      |                                                  ^~~~~~~~~
+main.c:20:50: note: each undeclared identifier is reported only once for each function it appears in
+main.c:24:50: error: ‘subtrair’ undeclared (first use in this function)
+   24 |                 resultado = Calcular(num1, num2, subtrair);
+      |                                                  ^~~~~~~~
+main.c:28:50: error: ‘multiplicar’ undeclared (first use in this function)
+   28 |                 resultado = Calcular(num1, num2, multiplicar);
+      |                                                  ^~~~~~~~~~~
+main.c:32:50: error: ‘dividir’ undeclared (first use in this function)
+   32 |                 resultado = Calcular(num1, num2, dividir);
+      |                                                  ^~~~~~~

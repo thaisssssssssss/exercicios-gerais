@@ -1,0 +1,5 @@
+Digite a operação ('a' para adição, 's' para subtração, 'm' para multiplicação, 'd' para divisão, 'f' para encerrar): Digite dois números: 15.00 x 15.00 = 225.00
+Digite a operação ('a' para adição, 's' para subtração, 'm' para multiplicação, 'd' para divisão, 'f' para encerrar): Digite dois números: 88.00 / 7.00 = 12.57
+Digite a operação ('a' para adição, 's' para subtração, 'm' para multiplicação, 'd' para divisão, 'f' para encerrar): Digite dois números: 1.00 + 0.00 = 1.00
+Digite a operação ('a' para adição, 's' para subtração, 'm' para multiplicação, 'd' para divisão, 'f' para encerrar): Digite dois números: 10.00 - 52.00 = -42.00
+Digite a operação ('a' para adição, 's' para subtração, 'm' para multiplicação, 'd' para divisão, 'f' para encerrar): 
