@@ -2,16 +2,16 @@ Arquivos Esperados Corretos: 3 de 3
 Pastas Compiladas Corretamente: 3 de 3 
 Pastas Linkadas Corretamente: 3 de 3
 Teste main
-  - Resultados corretos: 1 de 3
-  - Valgrinds corretos: 0 de 3
-Nota de Thais para o teste main: .53
+  - Resultados corretos: 3 de 3
+  - Valgrinds corretos: 3 de 3
+Nota de Thais para o teste main: 3.34
 Teste completo
-  - Resultados corretos: 1 de 3
-  - Valgrinds corretos: 0 de 3
-Nota de Thais para o teste completo: .53
+  - Resultados corretos: 3 de 3
+  - Valgrinds corretos: 3 de 3
+Nota de Thais para o teste completo: 3.33
 Teste aluno
   - Resultados corretos: 3 de 3
-  - Valgrinds corretos: 0 de 3
-Nota de Thais para o teste aluno: 1.66
-Nota de Thais: 0+(1.66)+(.53)+(.53)
-Nota de Thais: 2.72
+  - Valgrinds corretos: 3 de 3
+Nota de Thais para o teste aluno: 3.33
+Nota de Thais: 0+(3.33)+(3.34)+(3.33)
+Nota de Thais: 10.00

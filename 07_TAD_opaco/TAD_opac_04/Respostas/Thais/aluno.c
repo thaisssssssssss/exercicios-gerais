@@ -2,27 +2,6 @@
 #include "aluno.h"
 #include <stdlib.h>
 
-
-
-/** char *LeVetor(char *vetor, int *tamanho) {
-     int length = 0, ch;
-     while ((ch = getchar()) != '\n' && ch != EOF) {
-        if (length == *tamanho - 1) { // -1 para o '\0'
-            vetor = AumentaTamanhoVetor(vetor, *tamanho);
-            *tamanho += TAM_PADRAO;
-        }
-        vetor[length] = ch;
-        length++;
-    }
-    //vetor[length] = '\0';
-    return vetor;
-}
-* */ 
-
-
-
-
-
 struct Aluno{
     char *nome;
     int matricula;
@@ -36,6 +15,8 @@ struct Aluno{
  */
 tAluno* CriaAluno(){
     tAluno* aluno = (tAluno*)malloc(sizeof(tAluno));
+    if(aluno == NULL) exit(EXIT_FAILURE);
+
     aluno->nome = NULL;
     aluno->matricula = -1;
     aluno->n1 = -1;
@@ -53,8 +34,8 @@ void ApagaAluno(tAluno *aluno){
     if(aluno != NULL){
         free(aluno->nome);
         free(aluno);
-        aluno->nome = NULL;
-        aluno = NULL;
+        //aluno->nome = NULL;
+        //aluno = NULL;
     }
 }
 
@@ -69,12 +50,16 @@ void LeAluno(tAluno *aluno){
     char ch;
     scanf("%*[^A-Z^a-z]");
     aluno->nome = malloc(sizeof(char));
+    if (aluno->nome == NULL) exit(EXIT_FAILURE);
+
     while ((ch = getchar()) != '\n' && ch != EOF) {
-        aluno->nome = realloc(aluno->nome, (tamanho + 1) * sizeof(char));
-        aluno->nome[tamanho] = '\0';
+        aluno->nome = realloc(aluno->nome, (tamanho + 2) * sizeof(char));
+        if (aluno->nome == NULL) exit(EXIT_FAILURE);
         aluno->nome[tamanho] = ch;
         tamanho++;
     }
+    
+    aluno->nome[tamanho] = '\0';
 
     scanf("%d", &aluno->matricula);
     scanf("%d %d %d", &aluno->n1, &aluno->n2, &aluno->n3);
@@ -125,5 +110,5 @@ int VerificaAprovacao(tAluno* aluno){
  * @param aluno Ponteiro para aluno a ser impresso.
  */
 void ImprimeAluno(tAluno* aluno){
-    if(VerificaAprovacao(aluno)) printf("%s\n", aluno->nome);
+    printf("%s\n", aluno->nome);
 }

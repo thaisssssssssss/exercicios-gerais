@@ -20,4 +20,8 @@ int main(){
             }
         }
     }
+    for(i = 0; i < qtdAlunos; i++){
+        if(VerificaAprovacao(alunos[i])) ImprimeAluno(alunos[i]);
+        ApagaAluno(alunos[i]);
+    }
 }

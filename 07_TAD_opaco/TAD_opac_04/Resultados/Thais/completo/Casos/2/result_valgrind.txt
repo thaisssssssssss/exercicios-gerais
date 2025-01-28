@@ -1,25 +1,15 @@
-==79059== Memcheck, a memory error detector
-==79059== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==79059== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==79059== Command: Resultados/Thais/completo/prog Resultados/Thais/completo/Casos/2
-==79059== Parent PID: 79058
-==79059== 
-==79059== 
-==79059== HEAP SUMMARY:
-==79059==     in use at exit: 29 bytes in 2 blocks
-==79059==   total heap usage: 8 allocs, 6 frees, 4,136 bytes allocated
-==79059== 
-==79059== 29 (24 direct, 5 indirect) bytes in 1 blocks are definitely lost in loss record 2 of 2
-==79059==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==79059==    by 0x10921E: CriaAluno (in /home/tgbrandao/Downloads/exercicios-gerais/07_TAD_opaco/TAD_opac_04/Resultados/Thais/completo/prog)
-==79059==    by 0x1095A2: main (in /home/tgbrandao/Downloads/exercicios-gerais/07_TAD_opaco/TAD_opac_04/Resultados/Thais/completo/prog)
-==79059== 
-==79059== LEAK SUMMARY:
-==79059==    definitely lost: 24 bytes in 1 blocks
-==79059==    indirectly lost: 5 bytes in 1 blocks
-==79059==      possibly lost: 0 bytes in 0 blocks
-==79059==    still reachable: 0 bytes in 0 blocks
-==79059==         suppressed: 0 bytes in 0 blocks
-==79059== 
-==79059== For lists of detected and suppressed errors, rerun with: -s
-==79059== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+==16185== Memcheck, a memory error detector
+==16185== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==16185== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==16185== Command: Resultados/Thais/completo/prog Resultados/Thais/completo/Casos/2
+==16185== Parent PID: 16184
+==16185== 
+==16185== 
+==16185== HEAP SUMMARY:
+==16185==     in use at exit: 0 bytes in 0 blocks
+==16185==   total heap usage: 8 allocs, 8 frees, 4,141 bytes allocated
+==16185== 
+==16185== All heap blocks were freed -- no leaks are possible
+==16185== 
+==16185== For lists of detected and suppressed errors, rerun with: -s
+==16185== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
