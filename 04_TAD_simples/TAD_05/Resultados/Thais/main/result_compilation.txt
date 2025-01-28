@@ -1,0 +1,13 @@
+main.c: In function ‘main’:
+main.c:42:17: warning: ‘nome’ may be used uninitialized [-Wmaybe-uninitialized]
+   42 |                 fgets(nome, 50 * sizeof(char), stdin);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+main.c:7:11: note: ‘nome’ was declared here
+    7 |     char *nome;
+      |           ^~~~
+main.c:43:17: warning: ‘cpf’ may be used uninitialized [-Wmaybe-uninitialized]
+   43 |                 fgets(cpf, 15 * sizeof(char), stdin);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+main.c:8:11: note: ‘cpf’ was declared here
+    8 |     char *cpf;
+      |           ^~~

@@ -1,6 +1,17 @@
-#include <stdio.h>
-#include "conta.h"
+#ifndef _CONTA_H_
+#define _CONTA_H_
+
 #include "usuario.h"
+
+/**
+ * @struct tConta
+ * @brief Estrutura que representa uma conta bancária.
+ */
+typedef struct Conta {
+    int numero; /**< Número da conta. */
+    tUsuario user; /**< Usuário da conta. */
+    float saldo; /**< Saldo da conta. */
+} tConta;
 
 /**
  * @brief Cria uma nova conta bancária.
@@ -8,23 +19,13 @@
  * @param user Usuário da conta.
  * @return A nova conta criada.
  */
-tConta CriaConta(int numero, tUsuario user){
-    tConta conta;
-    conta.numero = numero;
-    conta.user = CriaUsuario(user.nome, user.cpf);
-    conta.saldo = 0;
-    return conta;
-}
+tConta CriaConta(int numero, tUsuario user);
 
 /**
  * @brief Imprime os dados de uma conta bancária.
  * @param conta Conta bancária a ser impressa.
  */
-void ImprimeConta(tConta conta){
-    printf("Conta: %d\n", conta.numero);
-    printf("Saldo: R$ %.2f\n", conta.saldo);
-    ImprimeUsuario(conta.user);
-}
+void ImprimeConta(tConta conta);
 
 /**
  * @brief Compara o número de uma conta bancária com um número dado.
@@ -32,9 +33,7 @@ void ImprimeConta(tConta conta){
  * @param numero Número a ser comparado.
  * @return 1 se os números forem iguais, 0 caso contrário.
  */
-int VerificaConta(tConta conta, int numero){
-    return (conta.numero == numero);
-}
+int VerificaConta(tConta conta, int numero);
 
 /**
  * @brief Realiza um saque em uma conta bancária.
@@ -42,10 +41,7 @@ int VerificaConta(tConta conta, int numero){
  * @param valor Valor a ser sacado.
  * @return A conta com o novo saldo após o saque.
  */
-tConta SaqueConta(tConta conta, float valor){
-    conta.saldo = conta.saldo - valor;
-    return conta;
-}
+tConta SaqueConta(tConta conta, float valor);
 
 /**
  * @brief Realiza um depósito em uma conta bancária.
@@ -53,8 +49,6 @@ tConta SaqueConta(tConta conta, float valor){
  * @param valor Valor a ser depositado.
  * @return A conta com o novo saldo após o depósito.
  */
-tConta DepositoConta(tConta conta, float valor){
-    conta.saldo = conta.saldo + valor;
-    return conta;
-}
+tConta DepositoConta(tConta conta, float valor);
 
+#endif
