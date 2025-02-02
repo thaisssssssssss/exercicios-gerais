@@ -1,0 +1,4 @@
+empresa.c: In function ‘ContrataFuncionarioEmpresa’:
+empresa.c:71:10: warning: unused variable ‘i’ [-Wunused-variable]
+   71 |      int i, j, contratado = 0;
+      |          ^
