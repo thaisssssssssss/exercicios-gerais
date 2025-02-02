@@ -1,0 +1,20 @@
+(1)
+(#)
+
+
+~ESTOQUE~
+1 - A Sociedade Do Anel Fitas em estoque: 0
+
+(1)
+(#)
+
+~ESTOQUE~
+1 - A Sociedade Do Anel Fitas em estoque: 0
+1 - Shrek Fitas em estoque: 1
+
+
+
+
+~ESTOQUE~
+1 - A Sociedade Do Anel Fitas em estoque: 1
+1 - Shrek Fitas em estoque: 1

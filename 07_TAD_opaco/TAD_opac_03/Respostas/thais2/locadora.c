@@ -5,7 +5,7 @@
 #include "filme.h"
 
 struct Locadora {
-    tFilme *filmes;
+    tFilme **filmes;
     int numFilmes;
     int lucro;
 };
@@ -13,7 +13,7 @@ struct Locadora {
 tLocadora* CriarLocadora() {
     tLocadora *l = malloc(sizeof(tLocadora));
     if (l == NULL) exit(EXIT_FAILURE);
-    l->filmes = malloc(10 * sizeof(tFilme));
+    l->filmes = malloc(10 * sizeof(tFilme*));
     l->numFilmes = 0;
     l->lucro = 0;
     return l;

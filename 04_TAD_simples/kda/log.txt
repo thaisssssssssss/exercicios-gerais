@@ -86,7 +86,7 @@ LINKANDO OS ARQUIVOS COMPILADOS:
  - Arquivo de output gerado: Resultados/Thais/completo/result_linking.txt
  - Pasta registro:
  - Gerando o binário prog linkando com o(s) arquivo(s) registro/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/Thais/registro/result_linking.txt
  - Pasta jogador:
  - Gerando o binário prog linkando com o(s) arquivo(s) jogador/*.o
@@ -96,118 +96,138 @@ LINKANDO OS ARQUIVOS COMPILADOS:
  - Gerando o binário prog linkando com o(s) arquivo(s) servidor/*.o
  - Arquivos Linkados: Erro! Binário prog não gerado.
  - Arquivo de output gerado: Resultados/Thais/servidor/result_linking.txt
- - Arquivos Linkados: Erro! 2 arquivos com erros de linkagem.
+ - Arquivos Linkados: Erro! 1 arquivos com erros de linkagem.
 
 EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta main / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/Thais/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta main / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/Thais/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta main / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/Thais/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta main / Caso 4:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/Thais/main/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta main / Caso 5:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/Thais/main/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
- - Nota para a pasta main (máximo 0.50) - de - % de 0.50: .
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta main (máximo 0.50) - 0 de 50 - 0% de 0.50: 0.
  -----
  - Pasta completo / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/Thais/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta completo / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/Thais/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta completo / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/Thais/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta completo / Caso 4:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/Thais/completo/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta completo / Caso 5:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Arquivo de output gerado: Resultados/Thais/completo/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
- - Nota para a pasta completo (máximo 2.00) - de - % de 2.00: .
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta completo (máximo 2.00) - 0 de 50 - 0% de 2.00: 0.
  -----
  - Pasta registro / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Arquivo de output gerado: Resultados/Thais/registro/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta registro / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Arquivo de output gerado: Resultados/Thais/registro/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta registro / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Arquivo de output gerado: Resultados/Thais/registro/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta registro / Caso 4:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Arquivo de output gerado: Resultados/Thais/registro/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta registro / Caso 5:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
- - Nota para a pasta registro (máximo 2.00) - de - % de 2.00: .
+ - Arquivo de output gerado: Resultados/Thais/registro/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta registro (máximo 2.00) - 50.00 de 50 - 100.00% de 2.00: 2.00.
  -----
  - Pasta jogador / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Arquivo de output gerado: Resultados/Thais/jogador/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta jogador / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Arquivo de output gerado: Resultados/Thais/jogador/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta jogador / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Arquivo de output gerado: Resultados/Thais/jogador/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta jogador / Caso 4:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Arquivo de output gerado: Resultados/Thais/jogador/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta jogador / Caso 5:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
- - Nota para a pasta jogador (máximo 2.00) - de - % de 2.00: .
+ - Arquivo de output gerado: Resultados/Thais/jogador/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta jogador (máximo 2.00) - 50.00 de 50 - 100.00% de 2.00: 2.00.
  -----
  - Pasta servidor / Caso 1:
  - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta servidor / Caso 2:
  - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta servidor / Caso 3:
  - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta servidor / Caso 4:
  - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
  - Pasta servidor / Caso 5:
  - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
  - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
- - Nota para a pasta servidor (máximo 3.50) - de - % de 3.50: .
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta servidor (máximo 3.50) - 0 de 50 - 0% de 3.50: 0.
  -----
 
 #######################################
@@ -218,29 +238,29 @@ RESULTADOS FINAIS
 Aluno: Thais
  - Arquivos Esperados Corretos: 7 de 7
  - Pastas Compiladas Corretamente: 5 de 5 
- - Pastas Linkadas Corretamente: 3 de 5
+ - Pastas Linkadas Corretamente: 4 de 5
  - Teste main
  - Resultados corretos: 0 de 5
- - Valgrinds corretos: 0 de 5
- - Nota de Thais para o teste main: 
+ - Valgrinds corretos: 5 de 5
+ - Nota de Thais para o teste main: 0
  - Teste completo
  - Resultados corretos: 0 de 5
- - Valgrinds corretos: 0 de 5
- - Nota de Thais para o teste completo: 
+ - Valgrinds corretos: 5 de 5
+ - Nota de Thais para o teste completo: 0
  - Teste registro
- - Resultados corretos: 0 de 5
- - Valgrinds corretos: 0 de 5
- - Nota de Thais para o teste registro: 
+ - Resultados corretos: 5 de 5
+ - Valgrinds corretos: 5 de 5
+ - Nota de Thais para o teste registro: 2.00
  - Teste jogador
- - Resultados corretos: 0 de 5
- - Valgrinds corretos: 0 de 5
- - Nota de Thais para o teste jogador: 
+ - Resultados corretos: 5 de 5
+ - Valgrinds corretos: 5 de 5
+ - Nota de Thais para o teste jogador: 2.00
  - Teste servidor
  - Resultados corretos: 0 de 5
  - Valgrinds corretos: 0 de 5
- - Nota de Thais para o teste servidor: 
- - Nota de Thais: 0+()+()+()+()+()
- - Nota de Thais: 
+ - Nota de Thais para o teste servidor: 0
+ - Nota de Thais: 0+(2.00)+(2.00)+(0)+(0)+(0)
+ - Nota de Thais: 4.00
 
 ----------------------------------------------------------------------------
 

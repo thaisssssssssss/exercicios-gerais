@@ -1,5 +1,6 @@
-#include "eleitor.h"
 #include <stdio.h>
+#include "eleitor.h"
+#include <string.h>
 
 /**
  * @brief Cria um eleitor com os dados informados.
@@ -13,7 +14,6 @@ tEleitor CriaEleitor(int id, int votoP, int votoG){
     eleitor.id = id;
     eleitor.votoP = votoP;
     eleitor.votoG = votoG;
-
     return eleitor;
 }
 
@@ -23,11 +23,8 @@ tEleitor CriaEleitor(int id, int votoP, int votoG){
  */
 tEleitor LeEleitor(){
     int id, vP, vG;
-    tEleitor eleitor;
     scanf("%d %d %d", &id, &vP, &vG);
-
-    eleitor = CriaEleitor(id, vP, vG);
-
+    tEleitor eleitor = CriaEleitor(id, vP, vG);
     return eleitor;
 }
 
@@ -58,3 +55,4 @@ int ObtemVotoGovernador(tEleitor eleitor){
 int EhMesmoEleitor(tEleitor eleitor1, tEleitor eleitor2){
     return (eleitor1.id == eleitor2.id);
 }
+

@@ -1,3 +1,1 @@
-- PRESIDENTE ELEITO: SEM DECISAO
-- GOVERNADOR ELEITO: SEM DECISAO
-- NULOS E BRANCOS: 2, 6
+valgrind: Resultados/Thais/eleicao/prog: No such file or directory

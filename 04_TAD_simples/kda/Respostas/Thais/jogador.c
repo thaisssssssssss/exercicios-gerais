@@ -1,7 +1,5 @@
-#include "jogador.h"
-#include "registro.h"
-#include "servidor.h"
 #include <stdio.h>
+#include "jogador.h"
 
 /*
 Função que inicializa um jogador com ID passado por parâmetro
@@ -12,13 +10,13 @@ e o valor do KDA é inicializado com -1
 @return Jogador: Jogador inicializado
 */
 Jogador inicializaJogador(int id){
-    Jogador jogador;
-    jogador.id = id;
-    jogador.kills = 0;
-    jogador.deaths = 0;
-    jogador.assists = 0;
-    jogador.valorKDA = -1;
-    return jogador;
+    Jogador j;
+    j.id = id;
+    j.kills = 0;
+    j.deaths = 0;
+    j.assists = 0;
+    j.valorKDA = -1;
+    return j;
 }
 
 /*
@@ -30,12 +28,10 @@ com essas estatísticas. O ID do jogador é passado por parâmetro. Uma vez lido
 @return Jogador: Jogador inicializado com as estatísticas lidas e o valor do KDA calculado
 */
 Jogador leJogador(int id){
-    Jogador jogador; 
-    jogador = inicializaJogador(id);
-    int k, d, a;
-    scanf("%d %d %d", &k, &d, &a);
-    jogador = atualizaJogador(jogador, id, k, d, a);
-    return jogador;
+    Jogador j = inicializaJogador(id);
+    scanf("%d %d %d", &j.kills, &j.deaths, &j.assists);
+    j.valorKDA = calculaKDA(j);
+    return j;
 }
 
 /*
@@ -45,14 +41,13 @@ Função que calcula o valor do KDA de um jogador e armazena no campo valorKDA d
 @return float: Valor do KDA do jogador
 */
 float calculaKDA(Jogador j){
-    float valorKDA;
-    int k = getKillsJogador(j);
-    int d = getDeathsJogador(j);
-    int a = getAssistsJogador(j);
-
-    if(d == 0) valorKDA = (float)(k + a);
-    else valorKDA = (float)(k + a) / (float)d;
-    return valorKDA;
+    float kda;
+    if(j.deaths == 0) kda = (float)getKillsJogador(j) + (float)getAssistsJogador(j);
+    else{
+        kda = (float)getKillsJogador(j) + (float)getAssistsJogador(j);
+        kda = kda / (float)getDeathsJogador(j);
+    }
+    return kda;
 }
 
 /*
@@ -122,5 +117,6 @@ Funçao que recebe um jogador e imprime suas informações conforme o formato es
 @param j: Jogador
 */
 void printaJogador(Jogador j){
+    //Jogador 12: 13/1/0 (13.00)
     printf("Jogador %d: %d/%d/%d (%.2f)\n", j.id, j.kills, j.deaths, j.assists, j.valorKDA);
 }

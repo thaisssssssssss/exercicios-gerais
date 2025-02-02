@@ -1,0 +1,10 @@
+(1)
+(#)
+
+
+~ESTOQUE~
+1 - A Sociedade Do Anel Fitas em estoque: 0
+
+
+~ESTOQUE~
+1 - A Sociedade Do Anel Fitas em estoque: 1

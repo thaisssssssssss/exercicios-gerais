@@ -3,14 +3,6 @@
 
 typedef struct Filme tFilme;
 
-struct Filme {
-    int codigo;
-    char *nome;
-    int valor;
-    int qtdEstoque;
-    int qtdAlugada;
-};
-
 tFilme* CriarFilme();
 void DestruirFilme(tFilme* filme);
 int ObterCodigoFilme(tFilme* filme);

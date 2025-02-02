@@ -1,4 +1,0 @@
-eleicao.c: In function ‘RealizaEleicao’:
-eleicao.c:64:61: warning: unused variable ‘eleitorRepetido’ [-Wunused-variable]
-   64 |     int i, j, votoP, votoG, p, g, votoValido = 0, nulo = 0, eleitorRepetido = 0;
-      |                                                             ^~~~~~~~~~~~~~~

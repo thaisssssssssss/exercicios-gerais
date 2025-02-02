@@ -1,7 +1,5 @@
-#include "jogador.h"
-#include "registro.h"
-#include "servidor.h"
 #include <stdio.h>
+#include "jogador.h"
 
 int main(){
     

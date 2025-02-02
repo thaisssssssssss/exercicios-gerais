@@ -1,0 +1,1 @@
+valgrind: Resultados/Thais/locadora/prog: No such file or directory

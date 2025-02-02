@@ -1,5 +1,0 @@
-/usr/bin/ld: Resultados/Thais/registro/servidor.o: in function `leRegistrosServidor':
-servidor.c:(.text+0xaa): undefined reference to `leRegistro'
-/usr/bin/ld: Resultados/Thais/registro/servidor.o: in function `buscaDadosJogadorServidor':
-servidor.c:(.text+0x242): undefined reference to `buscaJogadorRegistro'
-collect2: error: ld returned 1 exit status

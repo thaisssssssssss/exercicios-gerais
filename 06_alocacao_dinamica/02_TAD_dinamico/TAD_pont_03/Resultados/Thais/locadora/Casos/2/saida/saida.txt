@@ -1,0 +1,7 @@
+(2)
+(1)
+(#)
+
+~ESTOQUE~
+1 - Donnie Darko Fitas em estoque: 2
+2 - Shrek Fitas em estoque: 1

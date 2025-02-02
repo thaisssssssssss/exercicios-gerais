@@ -1,0 +1,230 @@
+==238887== Memcheck, a memory error detector
+==238887== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==238887== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==238887== Command: Resultados/Thais/locadora/prog Resultados/Thais/locadora/Casos/9
+==238887== Parent PID: 238886
+==238887== 
+==238887== Conditional jump or move depends on uninitialised value(s)
+==238887==    at 0x484DB24: realloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x109684: LerCadastroLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109C7F: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887== 
+==238887== Invalid read of size 1
+==238887==    at 0x4850367: strcmp (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x1094B8: CompararNomesFilmes (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109A8C: OrdenarFilmesLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109B49: ConsultarEstoqueLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109D2E: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==  Address 0x4a76234 is 4 bytes inside a block of size 36 free'd
+==238887==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x10937F: DestruirFilme (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109B2A: OrdenarFilmesLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109D22: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==  Block was alloc'd at
+==238887==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x10929E: CriarFilme (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x1096AD: LerCadastroLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109C7F: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887== 
+==238887== Invalid read of size 1
+==238887==    at 0x4850364: strcmp (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x1094B8: CompararNomesFilmes (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109A8C: OrdenarFilmesLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109B49: ConsultarEstoqueLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109D2E: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==  Address 0x4a76234 is 4 bytes inside a block of size 36 free'd
+==238887==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x10937F: DestruirFilme (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109B2A: OrdenarFilmesLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109D22: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==  Block was alloc'd at
+==238887==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x10929E: CriarFilme (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x1096AD: LerCadastroLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109C7F: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887== 
+==238887== Invalid read of size 1
+==238887==    at 0x4850378: strcmp (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x1094B8: CompararNomesFilmes (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109A8C: OrdenarFilmesLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109B49: ConsultarEstoqueLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109D2E: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==  Address 0x4a76235 is 5 bytes inside a block of size 36 free'd
+==238887==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x10937F: DestruirFilme (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109B2A: OrdenarFilmesLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109D22: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==  Block was alloc'd at
+==238887==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x10929E: CriarFilme (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x1096AD: LerCadastroLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109C7F: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887== 
+==238887== Invalid read of size 1
+==238887==    at 0x4850380: strcmp (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x1094B8: CompararNomesFilmes (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109A8C: OrdenarFilmesLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109B49: ConsultarEstoqueLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109D2E: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==  Address 0x4a76235 is 5 bytes inside a block of size 36 free'd
+==238887==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x10937F: DestruirFilme (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109B2A: OrdenarFilmesLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109D22: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==  Block was alloc'd at
+==238887==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x10929E: CriarFilme (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x1096AD: LerCadastroLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109C7F: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887== 
+==238887== Invalid read of size 4
+==238887==    at 0x109393: ObterCodigoFilme (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109B83: ConsultarEstoqueLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109D2E: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==  Address 0x4a76230 is 0 bytes inside a block of size 36 free'd
+==238887==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x10937F: DestruirFilme (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109B2A: OrdenarFilmesLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109D22: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==  Block was alloc'd at
+==238887==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x10929E: CriarFilme (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x1096AD: LerCadastroLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109C7F: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887== 
+==238887== Invalid read of size 1
+==238887==    at 0x484F226: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x48C9D97: __printf_buffer (vfprintf-process-arg.c:435)
+==238887==    by 0x48CA72A: __vfprintf_internal (vfprintf-internal.c:1544)
+==238887==    by 0x48BF1A2: printf (printf.c:33)
+==238887==    by 0x1093C5: ImprimirNomeFilme (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109BB8: ConsultarEstoqueLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109D2E: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==  Address 0x4a76234 is 4 bytes inside a block of size 36 free'd
+==238887==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x10937F: DestruirFilme (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109B2A: OrdenarFilmesLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109D22: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==  Block was alloc'd at
+==238887==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x10929E: CriarFilme (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x1096AD: LerCadastroLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109C7F: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887== 
+==238887== Invalid read of size 1
+==238887==    at 0x484F234: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x48C9D97: __printf_buffer (vfprintf-process-arg.c:435)
+==238887==    by 0x48CA72A: __vfprintf_internal (vfprintf-internal.c:1544)
+==238887==    by 0x48BF1A2: printf (printf.c:33)
+==238887==    by 0x1093C5: ImprimirNomeFilme (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109BB8: ConsultarEstoqueLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109D2E: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==  Address 0x4a76235 is 5 bytes inside a block of size 36 free'd
+==238887==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x10937F: DestruirFilme (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109B2A: OrdenarFilmesLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109D22: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==  Block was alloc'd at
+==238887==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x10929E: CriarFilme (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x1096AD: LerCadastroLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109C7F: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887== 
+==238887== Invalid read of size 1
+==238887==    at 0x4852EE0: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x48BFD77: memcpy (string_fortified.h:29)
+==238887==    by 0x48BFD77: __printf_buffer_write (Xprintf_buffer_write.c:39)
+==238887==    by 0x48C850B: __printf_buffer (vfprintf-process-arg.c:501)
+==238887==    by 0x48CA72A: __vfprintf_internal (vfprintf-internal.c:1544)
+==238887==    by 0x48BF1A2: printf (printf.c:33)
+==238887==    by 0x1093C5: ImprimirNomeFilme (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109BB8: ConsultarEstoqueLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109D2E: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==  Address 0x4a76234 is 4 bytes inside a block of size 36 free'd
+==238887==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x10937F: DestruirFilme (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109B2A: OrdenarFilmesLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109D22: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==  Block was alloc'd at
+==238887==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x10929E: CriarFilme (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x1096AD: LerCadastroLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109C7F: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887== 
+==238887== Invalid read of size 1
+==238887==    at 0x4852EED: memmove (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x48BFD77: memcpy (string_fortified.h:29)
+==238887==    by 0x48BFD77: __printf_buffer_write (Xprintf_buffer_write.c:39)
+==238887==    by 0x48C850B: __printf_buffer (vfprintf-process-arg.c:501)
+==238887==    by 0x48CA72A: __vfprintf_internal (vfprintf-internal.c:1544)
+==238887==    by 0x48BF1A2: printf (printf.c:33)
+==238887==    by 0x1093C5: ImprimirNomeFilme (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109BB8: ConsultarEstoqueLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109D2E: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==  Address 0x4a76236 is 6 bytes inside a block of size 36 free'd
+==238887==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x10937F: DestruirFilme (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109B2A: OrdenarFilmesLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109D22: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==  Block was alloc'd at
+==238887==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x10929E: CriarFilme (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x1096AD: LerCadastroLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109C7F: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887== 
+==238887== Invalid read of size 4
+==238887==    at 0x1093EE: ObterQtdEstoqueFilme (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109BD7: ConsultarEstoqueLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109D2E: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==  Address 0x4a7624c is 28 bytes inside a block of size 36 free'd
+==238887==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x10937F: DestruirFilme (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109B2A: OrdenarFilmesLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109D22: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==  Block was alloc'd at
+==238887==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x10929E: CriarFilme (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x1096AD: LerCadastroLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109C7F: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887== 
+==238887== Invalid free() / delete / delete[] / realloc()
+==238887==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x109540: DestruirLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109D7D: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==  Address 0x4a76230 is 0 bytes inside a block of size 36 free'd
+==238887==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x10937F: DestruirFilme (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109B2A: OrdenarFilmesLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109D22: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==  Block was alloc'd at
+==238887==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x10929E: CriarFilme (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x1096AD: LerCadastroLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109C7F: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887== 
+==238887== 
+==238887== HEAP SUMMARY:
+==238887==     in use at exit: 68 bytes in 2 blocks
+==238887==   total heap usage: 11 allocs, 10 frees, 8,460 bytes allocated
+==238887== 
+==238887== 32 bytes in 1 blocks are definitely lost in loss record 1 of 2
+==238887==    at 0x484DB80: realloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x109684: LerCadastroLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109C7F: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887== 
+==238887== 36 bytes in 1 blocks are definitely lost in loss record 2 of 2
+==238887==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==238887==    by 0x10929E: CriarFilme (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109A38: OrdenarFilmesLocadora (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887==    by 0x109D22: main (in /home/thaisgb/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/Thais/locadora/prog)
+==238887== 
+==238887== LEAK SUMMARY:
+==238887==    definitely lost: 68 bytes in 2 blocks
+==238887==    indirectly lost: 0 bytes in 0 blocks
+==238887==      possibly lost: 0 bytes in 0 blocks
+==238887==    still reachable: 0 bytes in 0 blocks
+==238887==         suppressed: 0 bytes in 0 blocks
+==238887== 
+==238887== Use --track-origins=yes to see where uninitialised values come from
+==238887== For lists of detected and suppressed errors, rerun with: -s
+==238887== ERROR SUMMARY: 55 errors from 14 contexts (suppressed: 0 from 0)

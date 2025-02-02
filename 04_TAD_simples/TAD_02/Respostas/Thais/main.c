@@ -1,14 +1,10 @@
-#include "candidato.h"
-#include "eleicao.h"
-#include "eleitor.h"
 #include <stdio.h>
+#include "eleitor.h"
+#include "candidato.h"
 #include <string.h>
-#include <stdlib.h>
+#include "eleicao.h"
+
 
 int main(){
-    tEleicao eleicao;
-    eleicao = InicializaEleicao();
-    eleicao = RealizaEleicao(eleicao);
-    ImprimeResultadoEleicao(eleicao);
-    return 0;
+
 }

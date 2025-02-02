@@ -1,5 +1,6 @@
-#include "candidato.h"
 #include <stdio.h>
+#include "eleitor.h"
+#include "candidato.h"
 #include <string.h>
 
 
@@ -12,14 +13,13 @@
  * @return Candidato criado.
  */
 tCandidato CriaCandidato(char *nome, char *partido, char cargo, int id){
-    tCandidato candidato;
-    strcpy(candidato.nome, nome);
-    strcpy(candidato.partido, partido);
-    candidato.cargo = cargo;
-    candidato.id = id;
-    candidato.votos = 0;
-    
-    return candidato;
+    tCandidato c;
+    strcpy(c.nome, nome);
+    strcpy(c.partido, partido);
+    c.cargo = cargo;
+    c.id = id;
+    c.votos = 0;
+    return c;
 }
 
 /**
@@ -27,31 +27,17 @@ tCandidato CriaCandidato(char *nome, char *partido, char cargo, int id){
  * @return Candidato lido.
  */
 tCandidato LeCandidato(){
-   char nome[50];
+    tCandidato c;
+    char nome[50];
     char partido[50];
     char cargo;
-    int id = 0;
-    //Edsger Dijkstra, Partido do Melhor Caminho (PMC), P, 10
-    scanf("[^*\n]");
+    int id;
     scanf("%*[^A-Z^a-z]");
-    scanf("%[^,]", nome);
-    scanf("%*[^A-Z^a-z]");
-    //scanf("%*c%*c");
-    scanf("%[^,]", partido);
-    scanf("%*[^A-Z^a-z]");
-    //scanf("%*c%*c");
-    scanf("%c", &cargo);
-    //scanf("[^*,], ");
-    //scanf("%*c%*c");
-    scanf("%*[^0-9]");
-    scanf("%d", &id);
-    tCandidato candidato;
-    candidato.votos = 0;
-    candidato = CriaCandidato(nome, partido, cargo, id);
-
-    //ImprimeCandidato (candidato, 0);
-
-    return candidato;
+    scanf("%[^,], %[^,], %c, %d", nome, partido, &cargo, &id);
+    // Limpar o buffer de entrada
+    while (getchar() != '\n');
+    c = CriaCandidato(nome, partido, cargo, id);
+    return c;
 }
 
 /**
@@ -61,7 +47,7 @@ tCandidato LeCandidato(){
  * @return 1 se o identificador é igual, 0 caso contrário.
  */
 int VerificaIdCandidato(tCandidato candidato, int id){
-    return (candidato.id == id); 
+    return (candidato.id == id);
 }
 
 /**
@@ -89,7 +75,7 @@ char ObtemCargo(tCandidato candidato){
  * @return Candidato com a quantidade de votos incrementada.
  */
 tCandidato IncrementaVotoCandidato(tCandidato candidato){
-    candidato.votos += 1;
+    candidato.votos++;
     return candidato;
 }
 
@@ -109,9 +95,10 @@ int ObtemVotos(tCandidato candidato){
  * @return Percentual de votos do candidato.
  */
 float CalculaPercentualVotos(tCandidato candidato, int totalVotos){
-    int votos = ObtemVotos(candidato);
-    float perc = ((float)votos/(float)totalVotos) *100;
-    return perc;
+    float percentual = 0;
+    percentual = (float)candidato.votos * 100;
+    percentual = percentual / (float)totalVotos;
+    return percentual;
 }
 
 /**
@@ -120,9 +107,6 @@ float CalculaPercentualVotos(tCandidato candidato, int totalVotos){
  * @param percentualVotos Percentual de votos do candidato.
  */
 void ImprimeCandidato (tCandidato candidato, float percentualVotos){
-    printf("%s ", candidato.nome);
-    printf("(%s), ", candidato.partido);
-    printf("%d voto(s), %.2f", candidato.votos, percentualVotos);
-    printf("%%");
-    printf("\n");
+    printf("%s (%s), %d voto(s), %.2f%%\n", candidato.nome, candidato.partido, candidato.votos, percentualVotos);
 }
+

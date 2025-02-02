@@ -1,0 +1,7 @@
+registro.c: In function ‘leRegistro’:
+registro.c:24:14: warning: unused variable ‘existe’ [-Wunused-variable]
+   24 |     int fim, existe = 0;
+      |              ^~~~~~
+registro.c:24:9: warning: unused variable ‘fim’ [-Wunused-variable]
+   24 |     int fim, existe = 0;
+      |         ^~~

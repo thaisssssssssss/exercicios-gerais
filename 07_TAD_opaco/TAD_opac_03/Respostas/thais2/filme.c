@@ -6,7 +6,7 @@
 
 struct Filme {
     int codigo;
-    char *nome;
+    char nome[20];
     int valor;
     int qtdEstoque;
     int qtdAlugada;

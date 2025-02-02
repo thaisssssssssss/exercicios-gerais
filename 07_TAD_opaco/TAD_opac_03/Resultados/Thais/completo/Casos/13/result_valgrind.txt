@@ -1,0 +1,55 @@
+==339874== Memcheck, a memory error detector
+==339874== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==339874== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==339874== Command: Resultados/Thais/completo/prog Resultados/Thais/completo/Casos/13
+==339874== Parent PID: 339873
+==339874== 
+==339874== Invalid write of size 1
+==339874==    at 0x48CE709: __vfscanf_internal (vfscanf-internal.c:2976)
+==339874==    by 0x48BEEB5: __isoc99_scanf (isoc99_scanf.c:30)
+==339874==    by 0x109550: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/Thais/completo/prog)
+==339874==  Address 0x4a75081 is 0 bytes after a block of size 1 alloc'd
+==339874==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==339874==    by 0x109531: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/Thais/completo/prog)
+==339874== 
+==339874== Invalid write of size 1
+==339874==    at 0x48CE785: __vfscanf_internal (vfscanf-internal.c:3063)
+==339874==    by 0x48BEEB5: __isoc99_scanf (isoc99_scanf.c:30)
+==339874==    by 0x109550: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/Thais/completo/prog)
+==339874==  Address 0x4a7508b is 10 bytes after a block of size 1 alloc'd
+==339874==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==339874==    by 0x109531: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/Thais/completo/prog)
+==339874== 
+==339874== Invalid read of size 1
+==339874==    at 0x484F234: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==339874==    by 0x10955C: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/Thais/completo/prog)
+==339874==  Address 0x4a75081 is 0 bytes after a block of size 1 alloc'd
+==339874==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==339874==    by 0x109531: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/Thais/completo/prog)
+==339874== 
+==339874== Conditional jump or move depends on uninitialised value(s)
+==339874==    at 0x484F238: strlen (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==339874==    by 0x48C9D97: __printf_buffer (vfprintf-process-arg.c:435)
+==339874==    by 0x48CA72A: __vfprintf_internal (vfprintf-internal.c:1544)
+==339874==    by 0x48BF1A2: printf (printf.c:33)
+==339874==    by 0x1095CF: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/Thais/completo/prog)
+==339874== 
+==339874== 
+==339874== HEAP SUMMARY:
+==339874==     in use at exit: 12 bytes in 1 blocks
+==339874==   total heap usage: 4 allocs, 3 frees, 8,205 bytes allocated
+==339874== 
+==339874== 12 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==339874==    at 0x484DB80: realloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==339874==    by 0x10956F: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/Thais/completo/prog)
+==339874== 
+==339874== LEAK SUMMARY:
+==339874==    definitely lost: 12 bytes in 1 blocks
+==339874==    indirectly lost: 0 bytes in 0 blocks
+==339874==      possibly lost: 0 bytes in 0 blocks
+==339874==    still reachable: 0 bytes in 0 blocks
+==339874==         suppressed: 0 bytes in 0 blocks
+==339874== 
+==339874== Use --track-origins=yes to see where uninitialised values come from
+==339874== For lists of detected and suppressed errors, rerun with: -s
+==339874== ERROR SUMMARY: 24 errors from 5 contexts (suppressed: 0 from 0)

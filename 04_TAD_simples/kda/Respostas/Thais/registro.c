@@ -1,7 +1,7 @@
-#include "jogador.h"
-#include "registro.h"
-#include "servidor.h"
 #include <stdio.h>
+#include "registro.h"
+#include "jogador.h"
+
 
 /*
 Função que lê apenas um registro de partida a partir da entrada padrão. O registro de uma partida
@@ -11,16 +11,20 @@ Função que lê apenas um registro de partida a partir da entrada padrão. O re
 @return Registro: Registro de uma partida
 */
 Registro leRegistro(int idPartida){
-    Registro registro;
-    registro.idPartida = idPartida;
-
+    Registro r;
+    r.idPartida = idPartida;
     int i, id;
     for(i = 0; i < 5; i++){
         scanf("%*[^0-9]");
         scanf("%d:", &id);
-        registro.jogadores[i] = leJogador(id);
+        //printf("ID(%d)\n", id);
+        r.jogadores[i] = leJogador(id);
     }
-    return registro;
+
+    int fim, existe = 0;
+        //scanf("%d", &fim);
+        //printf("FIM(%d)\n", fim);
+    return r;
 }
 
 /*
@@ -31,12 +35,13 @@ Se o jogador for encontrado, ele é retornado. Caso contrário, um jogador é cr
 @param idJog: ID do jogador a ser buscado
 */
 Jogador buscaJogadorRegistro(Registro r, int idJog){
-    int i, id;
-    for(i = 0; i < 5; i++){
-        if(r.jogadores[i].id == idJog) return r.jogadores[i];
+    int j;
+    for(j = 0; j < 5; j++){
+        if(r.jogadores[j].id == idJog){
+            return r.jogadores[j];
+        } 
     }
-
-    Jogador jog;
-    jog = inicializaJogador(-1);
-    return jog;
+    Jogador jo = inicializaJogador(-1);
+    return jo;
 }
+
