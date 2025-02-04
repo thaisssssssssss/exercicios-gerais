@@ -1,0 +1,7 @@
+array.c: In function ‘BuscaBinariaArray’:
+array.c:81:12: warning: unused variable ‘j’ [-Wunused-variable]
+   81 |     int i, j, meio;
+      |            ^
+array.c:81:9: warning: unused variable ‘i’ [-Wunused-variable]
+   81 |     int i, j, meio;
+      |         ^

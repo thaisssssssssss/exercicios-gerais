@@ -1,0 +1,16 @@
+carta.c: In function ‘ComparaIdCarta’:
+carta.c:158:1: warning: control reaches end of non-void function [-Wreturn-type]
+  158 | }
+      | ^
+carta.c: In function ‘ComparaMagiaCarta’:
+carta.c:173:1: warning: control reaches end of non-void function [-Wreturn-type]
+  173 | }
+      | ^
+carta.c: In function ‘ComparaAtaqueCarta’:
+carta.c:188:1: warning: control reaches end of non-void function [-Wreturn-type]
+  188 | }
+      | ^
+carta.c: In function ‘ComparaFogoCarta’:
+carta.c:203:1: warning: control reaches end of non-void function [-Wreturn-type]
+  203 | }
+      | ^

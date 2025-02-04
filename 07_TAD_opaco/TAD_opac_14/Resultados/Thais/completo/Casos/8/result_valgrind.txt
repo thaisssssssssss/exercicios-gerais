@@ -1,0 +1,549 @@
+==1001373== Memcheck, a memory error detector
+==1001373== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1001373== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1001373== Command: Resultados/Thais/completo/prog Resultados/Thais/completo/Casos/8
+==1001373== Parent PID: 1001372
+==1001373== 
+==1001373== Invalid write of size 8
+==1001373==    at 0x10972C: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109692: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a74048 is 0 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x1096DB: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109692: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 8
+==1001373==    at 0x109734: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109692: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a74048 is 0 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x1096DB: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109692: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid write of size 8
+==1001373==    at 0x1092F2: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a751f8 is 0 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x10928D: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 8
+==1001373==    at 0x109310: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a751f8 is 0 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x10928D: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid write of size 4
+==1001373==    at 0x109327: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a75208 is 16 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x10928D: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid write of size 4
+==1001373==    at 0x109332: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a7520c is 20 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x10928D: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid write of size 4
+==1001373==    at 0x10933D: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a75200 is 8 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x10928D: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid write of size 4
+==1001373==    at 0x109348: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a75204 is 12 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x10928D: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 8
+==1001373==    at 0x1097DE: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a74048 is 0 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x1096DB: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109692: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid write of size 4
+==1001373==    at 0x48CF136: __vfscanf_internal (vfscanf-internal.c:1976)
+==1001373==    by 0x48BEEB5: __isoc99_scanf (isoc99_scanf.c:30)
+==1001373==    by 0x109E9C: LePartida (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097F9: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a755c0 is 8 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x109E66: LePartida (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097F9: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid write of size 8
+==1001373==    at 0x109EDE: LePartida (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097F9: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a755b8 is 0 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x109E66: LePartida (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097F9: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 8
+==1001373==    at 0x109EFC: LePartida (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097F9: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a755b8 is 0 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x109E66: LePartida (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097F9: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 8
+==1001373==    at 0x109801: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a74048 is 0 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x1096DB: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109692: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 4
+==1001373==    at 0x109FE4: GetVencedorPartida (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x10981C: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a755c4 is 12 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x109E66: LePartida (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097F9: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 4
+==1001373==    at 0x109FEB: GetVencedorPartida (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x10981C: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a755c0 is 8 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x109E66: LePartida (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097F9: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 8
+==1001373==    at 0x109859: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a74048 is 0 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x1096DB: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109692: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 8
+==1001373==    at 0x109FB9: GetTime1Partida (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109874: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a755b8 is 0 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x109E66: LePartida (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097F9: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 4
+==1001373==    at 0x1095B9: AdicionaVitoriaCasaFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1098A2: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a752f0 is 8 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x10928D: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid write of size 4
+==1001373==    at 0x1095C3: AdicionaVitoriaCasaFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1098A2: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a752f0 is 8 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x10928D: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 8
+==1001373==    at 0x1098E0: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a74048 is 0 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x1096DB: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109692: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 4
+==1001373==    at 0x109619: AdicionaDerrotaForaFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109929: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a7520c is 20 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x10928D: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid write of size 4
+==1001373==    at 0x109623: AdicionaDerrotaForaFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109929: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a7520c is 20 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x10928D: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 4
+==1001373==    at 0x109FFD: GetVencedorPartida (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x10981C: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a75984 is 12 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x109E66: LePartida (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097F9: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 4
+==1001373==    at 0x10A004: GetVencedorPartida (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x10981C: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a75980 is 8 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x109E66: LePartida (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097F9: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 8
+==1001373==    at 0x10997D: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a74048 is 0 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x1096DB: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109692: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 4
+==1001373==    at 0x1095D9: AdicionaVitoriaForaFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1099C6: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a75204 is 12 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x10928D: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid write of size 4
+==1001373==    at 0x1095E3: AdicionaVitoriaForaFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1099C6: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a75204 is 12 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x10928D: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 8
+==1001373==    at 0x109A04: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a74048 is 0 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x1096DB: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109692: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 8
+==1001373==    at 0x109FB9: GetTime1Partida (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109A1F: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a75978 is 0 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x109E66: LePartida (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097F9: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 4
+==1001373==    at 0x1095F9: AdicionaDerrotaCasaFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109A4D: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a752f8 is 16 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x10928D: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid write of size 4
+==1001373==    at 0x109603: AdicionaDerrotaCasaFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109A4D: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a752f8 is 16 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x10928D: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid write of size 4
+==1001373==    at 0x109A6D: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a74050 is 8 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x1096DB: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109692: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid write of size 4
+==1001373==    at 0x109A77: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a74054 is 12 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x1096DB: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109692: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 4
+==1001373==    at 0x109C9B: ImprimeRelatorioNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096B2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a74050 is 8 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x1096DB: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109692: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 4
+==1001373==    at 0x109639: GetVitoriaCasaFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1093E7: ImprimeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109B01: ImprimeRelatorioNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096B2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a75200 is 8 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x10928D: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 4
+==1001373==    at 0x10964E: GetVitoriaForaFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1093F5: ImprimeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109B01: ImprimeRelatorioNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096B2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a75204 is 12 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x10928D: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 4
+==1001373==    at 0x109663: GetDerrotaCasaFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109406: ImprimeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109B01: ImprimeRelatorioNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096B2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a75208 is 16 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x10928D: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 4
+==1001373==    at 0x109678: GetDerrotaForaFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109414: ImprimeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109B01: ImprimeRelatorioNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096B2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a7520c is 20 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x10928D: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 8
+==1001373==    at 0x1095A3: GetConferenciaFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109466: ImprimeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109B01: ImprimeRelatorioNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096B2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a751f8 is 0 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x10928D: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 4
+==1001373==    at 0x10964E: GetVitoriaForaFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x10948B: ImprimeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109B01: ImprimeRelatorioNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096B2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a75204 is 12 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x10928D: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 4
+==1001373==    at 0x109639: GetVitoriaCasaFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x10949A: ImprimeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109B01: ImprimeRelatorioNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096B2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a75200 is 8 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x10928D: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 8
+==1001373==    at 0x1095A3: GetConferenciaFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109B20: ImprimeRelatorioNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096B2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a751f8 is 0 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x10928D: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 4
+==1001373==    at 0x109639: GetVitoriaCasaFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109B5C: ImprimeRelatorioNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096B2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a75200 is 8 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x10928D: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 4
+==1001373==    at 0x10964E: GetVitoriaForaFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109B7D: ImprimeRelatorioNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096B2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a75204 is 12 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x10928D: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 4
+==1001373==    at 0x109663: GetDerrotaCasaFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109BA1: ImprimeRelatorioNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096B2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a75208 is 16 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x10928D: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 4
+==1001373==    at 0x109678: GetDerrotaForaFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109BC2: ImprimeRelatorioNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096B2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a7520c is 20 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x10928D: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 4
+==1001373==    at 0x109DE5: LiberaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096BE: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a74050 is 8 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x1096DB: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109692: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 8
+==1001373==    at 0x10939F: LiberaFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109DDC: LiberaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096BE: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a751f8 is 0 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x10928D: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 8
+==1001373==    at 0x1093AC: LiberaFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109DDC: LiberaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096BE: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a751f8 is 0 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x10928D: LeFranquia (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 8
+==1001373==    at 0x109DF1: LiberaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096BE: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a74048 is 0 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x1096DB: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109692: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 4
+==1001373==    at 0x109E2B: LiberaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096BE: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a74054 is 12 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x1096DB: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109692: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 8
+==1001373==    at 0x109E07: LiberaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096BE: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a74048 is 0 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x1096DB: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109692: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 8
+==1001373==    at 0x109F5F: LiberaPartida (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109E22: LiberaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096BE: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a755b8 is 0 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x109E66: LePartida (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097F9: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== Invalid read of size 8
+==1001373==    at 0x109F6C: LiberaPartida (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109E22: LiberaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096BE: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==  Address 0x4a755b8 is 0 bytes after a block of size 8 alloc'd
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x109E66: LePartida (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1097F9: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x1096A2: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== 
+==1001373== HEAP SUMMARY:
+==1001373==     in use at exit: 160 bytes in 2 blocks
+==1001373==   total heap usage: 38 allocs, 36 frees, 8,606 bytes allocated
+==1001373== 
+==1001373== 80 bytes in 1 blocks are definitely lost in loss record 1 of 2
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x1096FA: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109692: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== 80 bytes in 1 blocks are definitely lost in loss record 2 of 2
+==1001373==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1001373==    by 0x109724: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373==    by 0x109692: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/completo/prog)
+==1001373== 
+==1001373== LEAK SUMMARY:
+==1001373==    definitely lost: 160 bytes in 2 blocks
+==1001373==    indirectly lost: 0 bytes in 0 blocks
+==1001373==      possibly lost: 0 bytes in 0 blocks
+==1001373==    still reachable: 0 bytes in 0 blocks
+==1001373==         suppressed: 0 bytes in 0 blocks
+==1001373== 
+==1001373== For lists of detected and suppressed errors, rerun with: -s
+==1001373== ERROR SUMMARY: 248 errors from 56 contexts (suppressed: 0 from 0)

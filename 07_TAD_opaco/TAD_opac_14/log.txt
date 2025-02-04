@@ -1,0 +1,399 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: Thais
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Thais:
+ - Diretório Resultados/Thais criado com sucesso!
+ - Diretório Resultados/Thais/main criado com sucesso!
+ - Diretório Resultados/Thais/completo criado com sucesso!
+ - Diretório Resultados/Thais/nba criado com sucesso!
+ - Diretório Resultados/Thais/franquia criado com sucesso!
+ - Diretório Resultados/Thais/partida criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Thais/franquia.c' encontrado!
+ - Arquivo esperado 'Respostas/Thais/franquia.h' encontrado!
+ - Arquivo esperado 'Respostas/Thais/main.c' encontrado!
+ - Arquivo esperado 'Respostas/Thais/nba.c' encontrado!
+ - Arquivo esperado 'Respostas/Thais/nba.h' encontrado!
+ - Arquivo esperado 'Respostas/Thais/partida.c' encontrado!
+ - Arquivo esperado 'Respostas/Thais/partida.h' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Thais/main
+ - Copiando os Includes/franquia.h Includes/nba.h Includes/partida.h do professor para a pasta Resultados/Thais/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Thais/main
+ - Removendo o main.o do professor da pasta Resultados/Thais/main
+ - Copiando o Respostas/Thais/main.c do aluno para a pasta Resultados/Thais/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/Thais/completo
+ - Copiando os Respostas/Thais/franquia.c do aluno para a pasta Resultados/Thais/completo
+ - Copiando os Respostas/Thais/franquia.h do aluno para a pasta Resultados/Thais/completo
+ - Copiando os Respostas/Thais/main.c do aluno para a pasta Resultados/Thais/completo
+ - Copiando os Respostas/Thais/nba.c do aluno para a pasta Resultados/Thais/completo
+ - Copiando os Respostas/Thais/nba.h do aluno para a pasta Resultados/Thais/completo
+ - Copiando os Respostas/Thais/partida.c do aluno para a pasta Resultados/Thais/completo
+ - Copiando os Respostas/Thais/partida.h do aluno para a pasta Resultados/Thais/completo
+ - Pasta nba:
+ - Copiando os Casos de teste para a pasta Resultados/Thais/nba
+ - Copiando os Includes/franquia.h Includes/nba.h Includes/partida.h do professor para a pasta Resultados/Thais/nba
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Thais/nba
+ - Removendo o nba.o do professor da pasta Resultados/Thais/nba
+ - Copiando o Respostas/Thais/nba.c do aluno para a pasta Resultados/Thais/nba
+ - Pasta franquia:
+ - Copiando os Casos de teste para a pasta Resultados/Thais/franquia
+ - Copiando os Includes/franquia.h Includes/nba.h Includes/partida.h do professor para a pasta Resultados/Thais/franquia
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Thais/franquia
+ - Removendo o franquia.o do professor da pasta Resultados/Thais/franquia
+ - Copiando o Respostas/Thais/franquia.c do aluno para a pasta Resultados/Thais/franquia
+ - Pasta partida:
+ - Copiando os Casos de teste para a pasta Resultados/Thais/partida
+ - Copiando os Includes/franquia.h Includes/nba.h Includes/partida.h do professor para a pasta Resultados/Thais/partida
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Thais/partida
+ - Removendo o partida.o do professor da pasta Resultados/Thais/partida
+ - Copiando o Respostas/Thais/partida.c do aluno para a pasta Resultados/Thais/partida
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/Thais/main/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/Thais/completo/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta nba ok!
+ - Arquivo de output gerado: Resultados/Thais/nba/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta franquia ok!
+ - Arquivo de output gerado: Resultados/Thais/franquia/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta partida ok!
+ - Arquivo de output gerado: Resultados/Thais/partida/result_compilation.txt
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Thais/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Thais/completo/result_linking.txt
+ - Pasta nba:
+ - Gerando o binário prog linkando com o(s) arquivo(s) nba/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Thais/nba/result_linking.txt
+ - Pasta franquia:
+ - Gerando o binário prog linkando com o(s) arquivo(s) franquia/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Thais/franquia/result_linking.txt
+ - Pasta partida:
+ - Gerando o binário prog linkando com o(s) arquivo(s) partida/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Thais/partida/result_linking.txt
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso 1:
+ - Arquivo de output gerado: Resultados/Thais/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 31, frees: 31, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 10:
+ - Arquivo de output gerado: Resultados/Thais/main/Casos/10/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 56, frees: 56, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 2:
+ - Arquivo de output gerado: Resultados/Thais/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 19, frees: 19, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 3:
+ - Arquivo de output gerado: Resultados/Thais/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 7, frees: 7, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 4:
+ - Arquivo de output gerado: Resultados/Thais/main/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 34, frees: 34, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 5:
+ - Arquivo de output gerado: Resultados/Thais/main/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 108, frees: 108, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 6:
+ - Arquivo de output gerado: Resultados/Thais/main/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 34, frees: 34, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 7:
+ - Arquivo de output gerado: Resultados/Thais/main/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 10, frees: 10, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 8:
+ - Arquivo de output gerado: Resultados/Thais/main/Casos/8/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 40, frees: 40, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 9:
+ - Arquivo de output gerado: Resultados/Thais/main/Casos/9/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 37, frees: 37, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta main (máximo 2.00) - 100.00 de 100 - 100.00% de 2.00: 2.00.
+ -----
+ - Pasta completo / Caso 1:
+ - Arquivo de output gerado: Resultados/Thais/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 29, frees: 27, errors: 197 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Pasta completo / Caso 10:
+ - Arquivo de output gerado: Resultados/Thais/completo/Casos/10/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 53, frees: 51, errors: 402 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 2:
+ - Arquivo de output gerado: Resultados/Thais/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 17, frees: 15, errors: 97 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Pasta completo / Caso 3:
+ - Arquivo de output gerado: Resultados/Thais/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 5, frees: 3, errors: 10 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Pasta completo / Caso 4:
+ - Arquivo de output gerado: Resultados/Thais/completo/Casos/4/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 32, frees: 30, errors: 223 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 5:
+ - Arquivo de output gerado: Resultados/Thais/completo/Casos/5/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 104, frees: 102, errors: 1377 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 6:
+ - Arquivo de output gerado: Resultados/Thais/completo/Casos/6/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 32, frees: 30, errors: 206 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 7:
+ - Arquivo de output gerado: Resultados/Thais/completo/Casos/7/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 8, frees: 6, errors: 32 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Pasta completo / Caso 8:
+ - Arquivo de output gerado: Resultados/Thais/completo/Casos/8/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 38, frees: 36, errors: 248 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 9:
+ - Arquivo de output gerado: Resultados/Thais/completo/Casos/9/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 35, frees: 33, errors: 247 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta completo (máximo 2.00) - 20.00 de 100 - 20.00% de 2.00: .40.
+ -----
+ - Pasta nba / Caso 1:
+ - Arquivo de output gerado: Resultados/Thais/nba/Casos/1/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 29, frees: 27, errors: 51 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Pasta nba / Caso 10:
+ - Arquivo de output gerado: Resultados/Thais/nba/Casos/10/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 53, frees: 51, errors: 134 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Pasta nba / Caso 2:
+ - Arquivo de output gerado: Resultados/Thais/nba/Casos/2/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 17, frees: 15, errors: 28 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Pasta nba / Caso 3:
+ - Arquivo de output gerado: Resultados/Thais/nba/Casos/3/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 5, frees: 3, errors: 10 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Pasta nba / Caso 4:
+ - Arquivo de output gerado: Resultados/Thais/nba/Casos/4/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 32, frees: 30, errors: 55 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Pasta nba / Caso 5:
+ - Arquivo de output gerado: Resultados/Thais/nba/Casos/5/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 104, frees: 102, errors: 661 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Pasta nba / Caso 6:
+ - Arquivo de output gerado: Resultados/Thais/nba/Casos/6/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 32, frees: 30, errors: 63 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Pasta nba / Caso 7:
+ - Arquivo de output gerado: Resultados/Thais/nba/Casos/7/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 8, frees: 6, errors: 12 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Pasta nba / Caso 8:
+ - Arquivo de output gerado: Resultados/Thais/nba/Casos/8/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 38, frees: 36, errors: 67 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Pasta nba / Caso 9:
+ - Arquivo de output gerado: Resultados/Thais/nba/Casos/9/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 35, frees: 33, errors: 72 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Nota para a pasta nba (máximo 2.00) - 50.00 de 100 - 50.00% de 2.00: 1.00.
+ -----
+ - Pasta franquia / Caso 1:
+ - Arquivo de output gerado: Resultados/Thais/franquia/Casos/1/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 31, frees: 31, errors: 102 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Pasta franquia / Caso 10:
+ - Arquivo de output gerado: Resultados/Thais/franquia/Casos/10/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 56, frees: 56, errors: 134 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Pasta franquia / Caso 2:
+ - Arquivo de output gerado: Resultados/Thais/franquia/Casos/2/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 19, frees: 19, errors: 50 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Pasta franquia / Caso 3:
+ - Arquivo de output gerado: Resultados/Thais/franquia/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 7, frees: 7, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta franquia / Caso 4:
+ - Arquivo de output gerado: Resultados/Thais/franquia/Casos/4/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 34, frees: 34, errors: 141 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Pasta franquia / Caso 5:
+ - Arquivo de output gerado: Resultados/Thais/franquia/Casos/5/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 108, frees: 108, errors: 428 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Pasta franquia / Caso 6:
+ - Arquivo de output gerado: Resultados/Thais/franquia/Casos/6/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 34, frees: 34, errors: 71 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Pasta franquia / Caso 7:
+ - Arquivo de output gerado: Resultados/Thais/franquia/Casos/7/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 10, frees: 10, errors: 21 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Pasta franquia / Caso 8:
+ - Arquivo de output gerado: Resultados/Thais/franquia/Casos/8/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 40, frees: 40, errors: 112 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Pasta franquia / Caso 9:
+ - Arquivo de output gerado: Resultados/Thais/franquia/Casos/9/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 37, frees: 37, errors: 110 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Nota para a pasta franquia (máximo 2.00) - 55.00 de 100 - 55.00% de 2.00: 1.10.
+ -----
+ - Pasta partida / Caso 1:
+ - Arquivo de output gerado: Resultados/Thais/partida/Casos/1/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 31, frees: 31, errors: 40 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Pasta partida / Caso 10:
+ - Arquivo de output gerado: Resultados/Thais/partida/Casos/10/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 56, frees: 56, errors: 120 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta partida / Caso 2:
+ - Arquivo de output gerado: Resultados/Thais/partida/Casos/2/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 19, frees: 19, errors: 20 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Pasta partida / Caso 3:
+ - Arquivo de output gerado: Resultados/Thais/partida/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 7, frees: 7, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta partida / Caso 4:
+ - Arquivo de output gerado: Resultados/Thais/partida/Casos/4/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 34, frees: 34, errors: 27 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta partida / Caso 5:
+ - Arquivo de output gerado: Resultados/Thais/partida/Casos/5/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 108, frees: 108, errors: 174 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta partida / Caso 6:
+ - Arquivo de output gerado: Resultados/Thais/partida/Casos/6/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 34, frees: 34, errors: 69 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta partida / Caso 7:
+ - Arquivo de output gerado: Resultados/Thais/partida/Casos/7/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 10, frees: 10, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta partida / Caso 8:
+ - Arquivo de output gerado: Resultados/Thais/partida/Casos/8/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 40, frees: 40, errors: 69 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta partida / Caso 9:
+ - Arquivo de output gerado: Resultados/Thais/partida/Casos/9/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 37, frees: 37, errors: 58 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta partida (máximo 2.00) - 30.00 de 100 - 30.00% de 2.00: .60.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: Thais
+ - Arquivos Esperados Corretos: 7 de 7
+ - Pastas Compiladas Corretamente: 5 de 5 
+ - Pastas Linkadas Corretamente: 5 de 5
+ - Teste main
+ - Resultados corretos: 10 de 10
+ - Valgrinds corretos: 10 de 10
+ - Nota de Thais para o teste main: 2.00
+ - Teste completo
+ - Resultados corretos: 4 de 10
+ - Valgrinds corretos: 0 de 10
+ - Nota de Thais para o teste completo: .40
+ - Teste nba
+ - Resultados corretos: 10 de 10
+ - Valgrinds corretos: 0 de 10
+ - Nota de Thais para o teste nba: 1.00
+ - Teste franquia
+ - Resultados corretos: 10 de 10
+ - Valgrinds corretos: 1 de 10
+ - Nota de Thais para o teste franquia: 1.10
+ - Teste partida
+ - Resultados corretos: 4 de 10
+ - Valgrinds corretos: 2 de 10
+ - Nota de Thais para o teste partida: .60
+ - Nota de Thais: 0+(.60)+(2.00)+(1.10)+(.40)+(1.00)
+ - Nota de Thais: 5.10
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+

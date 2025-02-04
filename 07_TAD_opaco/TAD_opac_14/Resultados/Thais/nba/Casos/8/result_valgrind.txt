@@ -1,0 +1,150 @@
+==1011754== Memcheck, a memory error detector
+==1011754== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==1011754== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==1011754== Command: Resultados/Thais/nba/prog Resultados/Thais/nba/Casos/8
+==1011754== Parent PID: 1011753
+==1011754== 
+==1011754== Invalid write of size 8
+==1011754==    at 0x109714: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x10967A: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==  Address 0x4a74048 is 0 bytes after a block of size 8 alloc'd
+==1011754==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1011754==    by 0x1096C3: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x10967A: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754== 
+==1011754== Invalid read of size 8
+==1011754==    at 0x10971C: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x10967A: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==  Address 0x4a74048 is 0 bytes after a block of size 8 alloc'd
+==1011754==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1011754==    by 0x1096C3: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x10967A: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754== 
+==1011754== Invalid read of size 8
+==1011754==    at 0x1097C6: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x10968A: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==  Address 0x4a74048 is 0 bytes after a block of size 8 alloc'd
+==1011754==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1011754==    by 0x1096C3: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x10967A: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754== 
+==1011754== Invalid read of size 8
+==1011754==    at 0x1097E9: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x10968A: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==  Address 0x4a74048 is 0 bytes after a block of size 8 alloc'd
+==1011754==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1011754==    by 0x1096C3: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x10967A: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754== 
+==1011754== Invalid read of size 8
+==1011754==    at 0x109965: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x10968A: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==  Address 0x4a74048 is 0 bytes after a block of size 8 alloc'd
+==1011754==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1011754==    by 0x1096C3: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x10967A: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754== 
+==1011754== Invalid read of size 8
+==1011754==    at 0x1099EC: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x10968A: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==  Address 0x4a74048 is 0 bytes after a block of size 8 alloc'd
+==1011754==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1011754==    by 0x1096C3: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x10967A: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754== 
+==1011754== Invalid read of size 8
+==1011754==    at 0x109841: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x10968A: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==  Address 0x4a74048 is 0 bytes after a block of size 8 alloc'd
+==1011754==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1011754==    by 0x1096C3: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x10967A: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754== 
+==1011754== Invalid read of size 8
+==1011754==    at 0x1098C8: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x10968A: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==  Address 0x4a74048 is 0 bytes after a block of size 8 alloc'd
+==1011754==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1011754==    by 0x1096C3: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x10967A: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754== 
+==1011754== Invalid write of size 4
+==1011754==    at 0x109A55: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x10968A: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==  Address 0x4a74050 is 8 bytes after a block of size 8 alloc'd
+==1011754==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1011754==    by 0x1096C3: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x10967A: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754== 
+==1011754== Invalid write of size 4
+==1011754==    at 0x109A5F: RodaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x10968A: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==  Address 0x4a74054 is 12 bytes after a block of size 8 alloc'd
+==1011754==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1011754==    by 0x1096C3: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x10967A: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754== 
+==1011754== Invalid read of size 4
+==1011754==    at 0x109C83: ImprimeRelatorioNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x10969A: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==  Address 0x4a74050 is 8 bytes after a block of size 8 alloc'd
+==1011754==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1011754==    by 0x1096C3: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x10967A: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754== 
+==1011754== Invalid read of size 4
+==1011754==    at 0x109DCD: LiberaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x1096A6: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==  Address 0x4a74050 is 8 bytes after a block of size 8 alloc'd
+==1011754==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1011754==    by 0x1096C3: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x10967A: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754== 
+==1011754== Invalid read of size 8
+==1011754==    at 0x109DD9: LiberaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x1096A6: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==  Address 0x4a74048 is 0 bytes after a block of size 8 alloc'd
+==1011754==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1011754==    by 0x1096C3: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x10967A: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754== 
+==1011754== Invalid read of size 4
+==1011754==    at 0x109E13: LiberaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x1096A6: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==  Address 0x4a74054 is 12 bytes after a block of size 8 alloc'd
+==1011754==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1011754==    by 0x1096C3: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x10967A: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754== 
+==1011754== Invalid read of size 8
+==1011754==    at 0x109DEF: LiberaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x1096A6: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==  Address 0x4a74048 is 0 bytes after a block of size 8 alloc'd
+==1011754==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1011754==    by 0x1096C3: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x10967A: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754== 
+==1011754== 
+==1011754== HEAP SUMMARY:
+==1011754==     in use at exit: 160 bytes in 2 blocks
+==1011754==   total heap usage: 38 allocs, 36 frees, 8,838 bytes allocated
+==1011754== 
+==1011754== 80 bytes in 1 blocks are definitely lost in loss record 1 of 2
+==1011754==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1011754==    by 0x1096E2: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x10967A: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754== 
+==1011754== 80 bytes in 1 blocks are definitely lost in loss record 2 of 2
+==1011754==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==1011754==    by 0x10970C: CriaNBA (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754==    by 0x10967A: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_14/Resultados/Thais/nba/prog)
+==1011754== 
+==1011754== LEAK SUMMARY:
+==1011754==    definitely lost: 160 bytes in 2 blocks
+==1011754==    indirectly lost: 0 bytes in 0 blocks
+==1011754==      possibly lost: 0 bytes in 0 blocks
+==1011754==    still reachable: 0 bytes in 0 blocks
+==1011754==         suppressed: 0 bytes in 0 blocks
+==1011754== 
+==1011754== For lists of detected and suppressed errors, rerun with: -s
+==1011754== ERROR SUMMARY: 67 errors from 17 contexts (suppressed: 0 from 0)

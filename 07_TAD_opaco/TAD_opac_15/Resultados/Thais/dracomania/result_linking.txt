@@ -1,0 +1,6 @@
+/usr/bin/ld: Resultados/Thais/dracomania/main.o: in function `main':
+main.c:(.text+0x12): undefined reference to `CriaDracomania'
+/usr/bin/ld: main.c:(.text+0x22): undefined reference to `RodaDracomania'
+/usr/bin/ld: main.c:(.text+0x32): undefined reference to `ImprimeRelatorioDracomania'
+/usr/bin/ld: main.c:(.text+0x3e): undefined reference to `LiberaDracomania'
+collect2: error: ld returned 1 exit status

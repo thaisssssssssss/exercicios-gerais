@@ -1,0 +1,20 @@
+==107687== Memcheck, a memory error detector
+==107687== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==107687== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==107687== Command: Resultados/Thais/completo/prog Resultados/Thais/completo/Casos/1
+==107687== Parent PID: 107686
+==107687== 
+==107687== Conditional jump or move depends on uninitialised value(s)
+==107687==    at 0x109D57: EhVerdade (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_15/Resultados/Thais/completo/prog)
+==107687==    by 0x109DA6: main (in /home/thaisgb/exercicios-gerais/07_TAD_opaco/TAD_opac_15/Resultados/Thais/completo/prog)
+==107687== 
+==107687== 
+==107687== HEAP SUMMARY:
+==107687==     in use at exit: 0 bytes in 0 blocks
+==107687==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==107687== 
+==107687== All heap blocks were freed -- no leaks are possible
+==107687== 
+==107687== Use --track-origins=yes to see where uninitialised values come from
+==107687== For lists of detected and suppressed errors, rerun with: -s
+==107687== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
