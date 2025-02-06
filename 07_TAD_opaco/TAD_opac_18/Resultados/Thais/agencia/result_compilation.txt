@@ -1,0 +1,4 @@
+agencia.c: In function ‘ImprimeDoisCorrentistasComMaiorSaldo’:
+agencia.c:176:12: warning: unused variable ‘j’ [-Wunused-variable]
+  176 |     int i, j, id, id2;
+      |            ^
