@@ -1,0 +1,4 @@
+cidade.c: In function ‘LeEntrada’:
+cidade.c:71:9: warning: unused variable ‘i’ [-Wunused-variable]
+   71 |     int i;
+      |         ^
