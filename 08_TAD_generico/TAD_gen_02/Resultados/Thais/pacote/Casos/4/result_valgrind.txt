@@ -1,0 +1,42 @@
+==122684== Memcheck, a memory error detector
+==122684== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==122684== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==122684== Command: Resultados/Thais/pacote/prog Resultados/Thais/pacote/Casos/4
+==122684== Parent PID: 122683
+==122684== 
+==122684== Conditional jump or move depends on uninitialised value(s)
+==122684==    at 0x48C90BB: __printf_buffer (vfprintf-process-arg.c:58)
+==122684==    by 0x48CA72A: __vfprintf_internal (vfprintf-internal.c:1544)
+==122684==    by 0x48BF1A2: printf (printf.c:33)
+==122684==    by 0x109850: ImprimePacote (in /home/thaisgb/exercicios-gerais/08_TAD_generico/TAD_gen_02/Resultados/Thais/pacote/prog)
+==122684==    by 0x109361: ImprimirTodosPacotes (in /home/thaisgb/exercicios-gerais/08_TAD_generico/TAD_gen_02/Resultados/Thais/pacote/prog)
+==122684==    by 0x10954E: main (in /home/thaisgb/exercicios-gerais/08_TAD_generico/TAD_gen_02/Resultados/Thais/pacote/prog)
+==122684== 
+==122684== Use of uninitialised value of size 8
+==122684==    at 0x48BE0AB: _itoa_word (_itoa.c:183)
+==122684==    by 0x48C8C8B: __printf_buffer (vfprintf-process-arg.c:155)
+==122684==    by 0x48CA72A: __vfprintf_internal (vfprintf-internal.c:1544)
+==122684==    by 0x48BF1A2: printf (printf.c:33)
+==122684==    by 0x109850: ImprimePacote (in /home/thaisgb/exercicios-gerais/08_TAD_generico/TAD_gen_02/Resultados/Thais/pacote/prog)
+==122684==    by 0x109361: ImprimirTodosPacotes (in /home/thaisgb/exercicios-gerais/08_TAD_generico/TAD_gen_02/Resultados/Thais/pacote/prog)
+==122684==    by 0x10954E: main (in /home/thaisgb/exercicios-gerais/08_TAD_generico/TAD_gen_02/Resultados/Thais/pacote/prog)
+==122684== 
+==122684== Conditional jump or move depends on uninitialised value(s)
+==122684==    at 0x48BE0BC: _itoa_word (_itoa.c:183)
+==122684==    by 0x48C8C8B: __printf_buffer (vfprintf-process-arg.c:155)
+==122684==    by 0x48CA72A: __vfprintf_internal (vfprintf-internal.c:1544)
+==122684==    by 0x48BF1A2: printf (printf.c:33)
+==122684==    by 0x109850: ImprimePacote (in /home/thaisgb/exercicios-gerais/08_TAD_generico/TAD_gen_02/Resultados/Thais/pacote/prog)
+==122684==    by 0x109361: ImprimirTodosPacotes (in /home/thaisgb/exercicios-gerais/08_TAD_generico/TAD_gen_02/Resultados/Thais/pacote/prog)
+==122684==    by 0x10954E: main (in /home/thaisgb/exercicios-gerais/08_TAD_generico/TAD_gen_02/Resultados/Thais/pacote/prog)
+==122684== 
+==122684== 
+==122684== HEAP SUMMARY:
+==122684==     in use at exit: 0 bytes in 0 blocks
+==122684==   total heap usage: 13 allocs, 13 frees, 8,375 bytes allocated
+==122684== 
+==122684== All heap blocks were freed -- no leaks are possible
+==122684== 
+==122684== Use --track-origins=yes to see where uninitialised values come from
+==122684== For lists of detected and suppressed errors, rerun with: -s
+==122684== ERROR SUMMARY: 7 errors from 3 contexts (suppressed: 0 from 0)

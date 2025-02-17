@@ -1,0 +1,226 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: Thais
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA Thais:
+ - Diretório Resultados/Thais criado com sucesso!
+ - Diretório Resultados/Thais/main criado com sucesso!
+ - Diretório Resultados/Thais/completo criado com sucesso!
+ - Diretório Resultados/Thais/gerenciadorpacotes criado com sucesso!
+ - Diretório Resultados/Thais/pacote criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/Thais/gerenciadorpacotes.c' encontrado!
+ - Arquivo esperado 'Respostas/Thais/gerenciadorpacotes.h' encontrado!
+ - Arquivo esperado 'Respostas/Thais/main.c' encontrado!
+ - Arquivo esperado 'Respostas/Thais/pacote.c' encontrado!
+ - Arquivo esperado 'Respostas/Thais/pacote.h' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/Thais/main
+ - Copiando os Includes/gerenciadorpacotes.h Includes/pacote.h do professor para a pasta Resultados/Thais/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Thais/main
+ - Removendo o main.o do professor da pasta Resultados/Thais/main
+ - Copiando o Respostas/Thais/main.c do aluno para a pasta Resultados/Thais/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/Thais/completo
+ - Copiando os Respostas/Thais/gerenciadorpacotes.c do aluno para a pasta Resultados/Thais/completo
+ - Copiando os Respostas/Thais/gerenciadorpacotes.h do aluno para a pasta Resultados/Thais/completo
+ - Copiando os Respostas/Thais/main.c do aluno para a pasta Resultados/Thais/completo
+ - Copiando os Respostas/Thais/pacote.c do aluno para a pasta Resultados/Thais/completo
+ - Copiando os Respostas/Thais/pacote.h do aluno para a pasta Resultados/Thais/completo
+ - Pasta gerenciadorpacotes:
+ - Copiando os Casos de teste para a pasta Resultados/Thais/gerenciadorpacotes
+ - Copiando os Includes/gerenciadorpacotes.h Includes/pacote.h do professor para a pasta Resultados/Thais/gerenciadorpacotes
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Thais/gerenciadorpacotes
+ - Removendo o gerenciadorpacotes.o do professor da pasta Resultados/Thais/gerenciadorpacotes
+ - Copiando o Respostas/Thais/gerenciadorpacotes.c do aluno para a pasta Resultados/Thais/gerenciadorpacotes
+ - Pasta pacote:
+ - Copiando os Casos de teste para a pasta Resultados/Thais/pacote
+ - Copiando os Includes/gerenciadorpacotes.h Includes/pacote.h do professor para a pasta Resultados/Thais/pacote
+ - Copiando os Includes/*.o do professor para a pasta Resultados/Thais/pacote
+ - Removendo o pacote.o do professor da pasta Resultados/Thais/pacote
+ - Copiando o Respostas/Thais/pacote.c do aluno para a pasta Resultados/Thais/pacote
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/Thais/main/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/Thais/completo/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta gerenciadorpacotes ok!
+ - Arquivo de output gerado: Resultados/Thais/gerenciadorpacotes/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta pacote ok!
+ - Arquivo de output gerado: Resultados/Thais/pacote/result_compilation.txt
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Thais/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Thais/completo/result_linking.txt
+ - Pasta gerenciadorpacotes:
+ - Gerando o binário prog linkando com o(s) arquivo(s) gerenciadorpacotes/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Thais/gerenciadorpacotes/result_linking.txt
+ - Pasta pacote:
+ - Gerando o binário prog linkando com o(s) arquivo(s) pacote/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/Thais/pacote/result_linking.txt
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso 1:
+ - Arquivo de output gerado: Resultados/Thais/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 24, frees: 24, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 2:
+ - Arquivo de output gerado: Resultados/Thais/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 45, frees: 45, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 3:
+ - Arquivo de output gerado: Resultados/Thais/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 3, frees: 3, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 4:
+ - Arquivo de output gerado: Resultados/Thais/main/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 5:
+ - Arquivo de output gerado: Resultados/Thais/main/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 69, frees: 69, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta main (máximo 2.50) - 50.00 de 50 - 100.00% de 2.50: 2.50.
+ -----
+ - Pasta completo / Caso 1:
+ - Arquivo de output gerado: Resultados/Thais/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 184, frees: 184, errors: 43 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Pasta completo / Caso 2:
+ - Arquivo de output gerado: Resultados/Thais/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 141, frees: 141, errors: 43 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 3:
+ - Arquivo de output gerado: Resultados/Thais/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 4, frees: 4, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 4:
+ - Arquivo de output gerado: Resultados/Thais/completo/Casos/4/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 13, frees: 13, errors: 7 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Pasta completo / Caso 5:
+ - Arquivo de output gerado: Resultados/Thais/completo/Casos/5/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 322, frees: 322, errors: 86 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta completo (máximo 2.50) - 20.00 de 50 - 40.00% de 2.50: 1.00.
+ -----
+ - Pasta gerenciadorpacotes / Caso 1:
+ - Arquivo de output gerado: Resultados/Thais/gerenciadorpacotes/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 24, frees: 24, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta gerenciadorpacotes / Caso 2:
+ - Arquivo de output gerado: Resultados/Thais/gerenciadorpacotes/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 45, frees: 45, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta gerenciadorpacotes / Caso 3:
+ - Arquivo de output gerado: Resultados/Thais/gerenciadorpacotes/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 4, frees: 4, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta gerenciadorpacotes / Caso 4:
+ - Arquivo de output gerado: Resultados/Thais/gerenciadorpacotes/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta gerenciadorpacotes / Caso 5:
+ - Arquivo de output gerado: Resultados/Thais/gerenciadorpacotes/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 69, frees: 69, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta gerenciadorpacotes (máximo 2.50) - 50.00 de 50 - 100.00% de 2.50: 2.50.
+ -----
+ - Pasta pacote / Caso 1:
+ - Arquivo de output gerado: Resultados/Thais/pacote/Casos/1/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 184, frees: 184, errors: 43 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Pasta pacote / Caso 2:
+ - Arquivo de output gerado: Resultados/Thais/pacote/Casos/2/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 141, frees: 141, errors: 43 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta pacote / Caso 3:
+ - Arquivo de output gerado: Resultados/Thais/pacote/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 3, frees: 3, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta pacote / Caso 4:
+ - Arquivo de output gerado: Resultados/Thais/pacote/Casos/4/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 13, frees: 13, errors: 7 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Pasta pacote / Caso 5:
+ - Arquivo de output gerado: Resultados/Thais/pacote/Casos/5/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 322, frees: 322, errors: 86 | Desconto do valgrind 50.00%
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta pacote (máximo 2.50) - 20.00 de 50 - 40.00% de 2.50: 1.00.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: Thais
+ - Arquivos Esperados Corretos: 5 de 5
+ - Pastas Compiladas Corretamente: 4 de 4 
+ - Pastas Linkadas Corretamente: 4 de 4
+ - Teste main
+ - Resultados corretos: 5 de 5
+ - Valgrinds corretos: 5 de 5
+ - Nota de Thais para o teste main: 2.50
+ - Teste completo
+ - Resultados corretos: 3 de 5
+ - Valgrinds corretos: 1 de 5
+ - Nota de Thais para o teste completo: 1.00
+ - Teste gerenciadorpacotes
+ - Resultados corretos: 5 de 5
+ - Valgrinds corretos: 5 de 5
+ - Nota de Thais para o teste gerenciadorpacotes: 2.50
+ - Teste pacote
+ - Resultados corretos: 3 de 5
+ - Valgrinds corretos: 1 de 5
+ - Nota de Thais para o teste pacote: 1.00
+ - Nota de Thais: 0+(2.50)+(1.00)+(2.50)+(1.00)
+ - Nota de Thais: 7.00
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+
