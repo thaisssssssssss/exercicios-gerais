@@ -1,0 +1,15 @@
+==85245== Memcheck, a memory error detector
+==85245== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==85245== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==85245== Command: Resultados/Thais/movel/prog Resultados/Thais/movel/Casos/3
+==85245== Parent PID: 85244
+==85245== 
+==85245== 
+==85245== HEAP SUMMARY:
+==85245==     in use at exit: 0 bytes in 0 blocks
+==85245==   total heap usage: 13 allocs, 13 frees, 8,357 bytes allocated
+==85245== 
+==85245== All heap blocks were freed -- no leaks are possible
+==85245== 
+==85245== For lists of detected and suppressed errors, rerun with: -s
+==85245== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
