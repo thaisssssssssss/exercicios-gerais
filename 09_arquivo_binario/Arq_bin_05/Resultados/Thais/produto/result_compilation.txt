@@ -1,0 +1,7 @@
+produto.c:17:1: warning: no semicolon at end of struct or union
+   17 | };
+      | ^
+produto.c: In function ‘LeProduto’:
+produto.c:62:22: warning: unused variable ‘aux’ [-Wunused-variable]
+   62 |     int codigo, qtd, aux;
+      |                      ^~~
